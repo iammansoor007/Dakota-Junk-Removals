@@ -15,9 +15,9 @@ gsap.registerPlugin(ScrollTrigger);
 const GOLD = "#F28C28"; // Accent Orange
 const DARK_GOLD = "#D97706"; // Accent Dark
 const SILVER = "#E2E8F0"; // Light Silver for text contrast
-const BG = "#0E2E4F"; // Dark Navy Footer Background
-const CARD = "rgba(21, 77, 133, 0.2)"; // Brand card translucent background
-const GRAPHITE = "rgba(255, 255, 255, 0.1)"; // Translucent borders
+const BG = "#111111"; // Dark Charcoal Footer Background
+const CARD = "rgba(255, 255, 255, 0.04)"; // Brand card translucent background
+const GRAPHITE = "rgba(255, 255, 255, 0.08)"; // Translucent borders
 
 /* ─── Unsplash Images ──────────────────────────────────── */
 const Images = {

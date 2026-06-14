@@ -165,7 +165,7 @@ const CoatingInquiryForm = () => {
                   <FiZap className="w-5 h-5 sm:w-6 sm:h-6" style={{ color: "#FFF" }} />
                 </div>
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#0E2E4F]" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#111111]" style={{ fontFamily: "'Outfit', sans-serif" }}>
                     Free Estimate Request
                   </h3>
                   <p className="text-sm mt-0.5" style={{ color: "#1F293799" }}>
@@ -216,7 +216,7 @@ const CoatingInquiryForm = () => {
                       >
                         <div
                           className="relative w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300"
-                          style={isActive ? { background: "#F28C28", color: "#fff", boxShadow: "0 0 20px rgba(242,140,40,0.3)" } : isCompleted ? { background: "#154D8522", color: "#154D85" } : { background: "#E2E8F0", color: "#94A3B8" }}
+                          style={isActive ? { background: "#F28C28", color: "#fff", boxShadow: "0 0 20px rgba(242,140,40,0.3)" } : isCompleted ? { background: "#11111122", color: "#111111" } : { background: "#E2E8F0", color: "#94A3B8" }}
                         >
                           {isCompleted ? (
                             <FiCheckCircle className="w-6 h-6" />
@@ -226,7 +226,7 @@ const CoatingInquiryForm = () => {
                         </div>
                         <span
                           className="text-xs font-bold mt-2 transition-colors"
-                          style={{ color: isActive ? "#F28C28" : isCompleted ? "#154D8599" : "#94A3B8" }}
+                          style={{ color: isActive ? "#F28C28" : isCompleted ? "#11111199" : "#94A3B8" }}
                         >
                           {stepLabels[s - 1]}
                         </span>
@@ -439,8 +439,8 @@ const CoatingInquiryForm = () => {
                       transition={{ duration: 0.25 }}
                       className="space-y-4"
                     >
-                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#154D8510", border: "1px solid #154D8522" }}>
-                        <FiShield className="w-4 h-4" style={{ color: "#154D85" }} />
+                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#11111108", border: "1px solid #11111115" }}>
+                        <FiShield className="w-4 h-4" style={{ color: "#F28C28" }} />
                         <span className="text-xs" style={{ color: "#1F293799" }}>
                           Step 3 of 3 - How should we reach you?
                         </span>
@@ -458,7 +458,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#154D85"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#F28C28"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="hello@example.com"
                             required
@@ -478,7 +478,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#154D85"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#F28C28"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="+1 (386) 246-7999"
                             required
@@ -556,7 +556,7 @@ const Hero = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen overflow-hidden bg-[#0E2E4F] isolate"
+      className="relative min-h-screen overflow-hidden bg-[#111111] isolate"
     >
       <div className="absolute inset-0 -z-10">
         <motion.img
@@ -570,10 +570,10 @@ const Hero = () => {
           className="w-full h-full object-cover absolute inset-0 opacity-40 sm:opacity-55 md:opacity-60 will-change-transform"
         />
         {/* Dark overlays */}
-        <div className="absolute inset-0 bg-[#0E2E4F]/40" />
+        <div className="absolute inset-0 bg-[#111111]/45" />
 
         {/* Softened Directional Gradients */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0E2E4F]/85 via-[#0E2E4F]/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/90 via-[#111111]/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-accent/15 via-transparent to-transparent" />
       </div>
 

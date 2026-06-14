@@ -339,7 +339,7 @@ export default function AboutSection() {
                       whileHover={{ scale: 1.03, y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       className="group relative overflow-hidden w-full sm:w-auto md:w-auto min-w-[180px] sm:min-w-[200px] md:min-w-[180px] lg:min-w-[200px] px-5 sm:px-8 md:px-6 lg:px-8 py-3 sm:py-4 md:py-3.5 lg:py-4 rounded-2xl inline-flex items-center justify-center gap-2 font-semibold sm:font-bold text-sm sm:text-base transition-all duration-300"
-                      style={{ background: "#154D85", color: "#FFF", border: "2px solid #154D85", boxShadow: "0 8px 32px rgba(21,77,133,0.15)" }}
+                      style={{ background: "#111111", color: "#FFF", border: "2px solid #111111", boxShadow: "0 8px 32px rgba(0,0,0,0.15)" }}
                     >
                       <span
                         className="

@@ -609,12 +609,12 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
     <div className="relative mt-16 md:mt-24 lg:mt-32">
       {/* CTA Container */}
       <div className="relative rounded-3xl overflow-hidden">
-        {/* Solid Dark Navy Background */}
+        {/* Solid Dark Charcoal Background */}
         <div
-          className="absolute inset-0 rounded-3xl bg-[#0E2E4F]"
+          className="absolute inset-0 rounded-3xl bg-[#111111]"
           style={{
-            boxShadow: "0 25px 60px rgba(14, 46, 79, 0.25)",
-            border: "1px solid rgba(21, 77, 133, 0.2)"
+            boxShadow: "0 25px 60px rgba(0, 0, 0, 0.2)",
+            border: "1px solid rgba(255, 255, 255, 0.08)"
           }}
         />
 

@@ -82,15 +82,15 @@ const ServiceCard = memo(({
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
       className={`group relative rounded-2xl overflow-hidden flex flex-col cursor-pointer transform-gpu will-change-transform transition-all duration-500 hover:-translate-y-2 ${orphan ? "md:col-start-2" : ""}`}
-      style={{ background: "#FFFFFF", border: "1px solid #E2E8F0", boxShadow: "0 4px 24px rgba(14,46,79,0.05)" }}
-      onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#154D8540"}
+      style={{ background: "#FFFFFF", border: "1px solid #E2E8F0", boxShadow: "0 4px 24px rgba(0,0,0,0.03)" }}
+      onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#F28C2840"}
       onMouseLeave={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#E2E8F0"}
     >
-      {/* Blue left accent bar */}
-      <div className="absolute left-0 top-0 bottom-0 w-1 scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top z-10" style={{ background: "#154D85" }} />
+      {/* Orange left accent bar */}
+      <div className="absolute left-0 top-0 bottom-0 w-1 scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top z-10" style={{ background: "#F28C28" }} />
 
       {/* Image */}
-      <div className="relative h-48 overflow-hidden shrink-0 bg-gradient-to-br from-[#154D85]/5 to-[#154D85]/10">
+      <div className="relative h-48 overflow-hidden shrink-0 bg-gradient-to-br from-[#111111]/5 to-[#111111]/10">
         {img ? (
           <>
             <img src={img} alt={service.title} loading="eager"
@@ -99,7 +99,7 @@ const ServiceCard = memo(({
           </>
         ) : (
           <div className="w-full h-full flex items-center justify-center">
-            <Icon className="w-20 h-20 text-[#154D85]/20" />
+            <Icon className="w-20 h-20 text-[#111111]/20" />
           </div>
         )}
         <div className="absolute top-4 left-4">
@@ -108,7 +108,7 @@ const ServiceCard = memo(({
           </span>
         </div>
         <div className="absolute bottom-4 right-4">
-          <span className="font-black text-4xl leading-none select-none" style={{ color: "#154D8515" }}>
+          <span className="font-black text-4xl leading-none select-none" style={{ color: "#11111110" }}>
             {service.number}
           </span>
         </div>
@@ -117,8 +117,8 @@ const ServiceCard = memo(({
       {/* Content */}
       <div className="flex flex-col flex-1 p-6">
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300 group-hover:scale-110" style={{ background: "#154D8510", border: "1px solid #154D8530" }}>
-            <Icon className="w-5 h-5" style={{ color: "#154D85" }} />
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300 group-hover:scale-110" style={{ background: "#11111105", border: "1px solid #11111115" }}>
+            <Icon className="w-5 h-5" style={{ color: "#111111" }} />
           </div>
           <h3 className="text-lg font-black transition-colors duration-300 leading-tight text-[#1F2937] group-hover:text-[#F28C28]">
             {service.title}
@@ -132,7 +132,7 @@ const ServiceCard = memo(({
         <div className="grid grid-cols-2 gap-2 mb-5 flex-1">
           {service.features?.slice(0, 4).map((f: string, i: number) => (
             <div key={i} className="flex items-center gap-1.5 text-xs" style={{ color: "#1F293799" }}>
-              <CheckCircle className="w-3 h-3 shrink-0" style={{ color: "#154D85" }} />
+              <CheckCircle className="w-3 h-3 shrink-0" style={{ color: "#F28C28" }} />
               <span className="truncate">{f}</span>
             </div>
           ))}
@@ -197,7 +197,6 @@ const Services = () => {
               <p className="text-base md:text-lg leading-relaxed" style={{ color: "#1F2937" }}>
                 {description[0]}
               </p>
-
               {/* Stat cards */}
               <div className="grid grid-cols-3 gap-3">
                 {stats.map((stat: any) => (
@@ -206,8 +205,8 @@ const Services = () => {
                     className="relative rounded-xl p-4 overflow-hidden transition-all duration-300 shadow-md"
                     style={{ background: "#FFFFFF", border: "1px solid #E2E8F0" }}
                   >
-                    <div className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl" style={{ background: "linear-gradient(90deg, #154D85, #0E2E4F)" }} />
-                    <div className="text-2xl md:text-3xl font-black leading-none mb-1 pt-1" style={{ color: "#154D85" }}>
+                    <div className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl" style={{ background: "linear-gradient(90deg, #F28C28, #111111)" }} />
+                    <div className="text-2xl md:text-3xl font-black leading-none mb-1 pt-1" style={{ color: "#111111" }}>
                       <AnimatedNumber value={stat.value} suffix={stat.suffix} />
                     </div>
                     <div className="text-[9px] md:text-[10px] font-bold uppercase tracking-widest leading-tight" style={{ color: "#1F293799" }}>
@@ -220,7 +219,7 @@ const Services = () => {
           </div>
 
           {/* Separator line */}
-          <div className="mt-12 h-px" style={{ background: "linear-gradient(to right, #154D8544, #E2E8F0, transparent)" }} />
+          <div className="mt-12 h-px" style={{ background: "linear-gradient(to right, #F28C2844, #E2E8F0, transparent)" }} />
         </div>
 
         {/* ══ SERVICES GRID ══════════════════════════════════════ */}
@@ -241,9 +240,9 @@ const Services = () => {
           transition={{ duration: 0.65 }}
           className="relative overflow-hidden rounded-3xl"
           style={{
-            background: "#0E2E4F",
-            boxShadow: "0 25px 60px rgba(14,46,79,0.2)",
-            border: "1px solid rgba(255, 255, 255, 0.1)"
+            background: "#111111",
+            boxShadow: "0 25px 60px rgba(0,0,0,0.15)",
+            border: "1px solid rgba(255, 255, 255, 0.08)"
           }}
         >
           {/* Technical Grid Pattern */}
