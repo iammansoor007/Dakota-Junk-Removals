@@ -192,7 +192,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >
-              <div className="relative -ml-4 sm:-ml-3 lg:ml-0" style={{ marginBottom: "-2rem" }}>
+              <div className="relative -ml-8 sm:-ml-6 lg:-ml-6" style={{ marginBottom: "-2rem" }}>
                 <img
                   src={logo}
                   alt="Shoals Junk Pros Logo"
@@ -203,6 +203,37 @@ const Navbar = () => {
             </motion.a>
 
             <div className="hidden lg:flex items-center space-x-2">
+              {/* Home — always first */}
+              {companyLinks.filter(l => l.label === "Home").map((link) => {
+                const LinkIcon = iconMap[link.icon as keyof typeof iconMap] || iconMap.Home;
+                return (
+                  <motion.a
+                    key={link.label}
+                    href={link.href}
+                    onClick={(e) => {
+                      if (link.href.startsWith("#") && link.href.length > 1) {
+                        e.preventDefault();
+                        scrollToSection(link.href.slice(1));
+                      }
+                      handleLinkClick();
+                    }}
+                    onMouseEnter={() => setActiveMegaMenu(null)}
+                    className={`flex items-center space-x-2 px-4 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#F28C28]" : "text-white hover:text-[#F28C28]"}`}
+                    whileHover={{ scale: 1.05, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <div className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/80"}`}>
+                      <LinkIcon />
+                    </div>
+                    <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
+                      {link.label}
+                    </span>
+                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#F28C28] group-hover:w-3/4 transition-all duration-500" />
+                  </motion.a>
+                );
+              })}
+
+              {/* Services dropdown */}
               <div className="relative">
                 <motion.button
                   ref={servicesButtonRef}
@@ -340,7 +371,7 @@ const Navbar = () => {
               </div>
 
               <div className="flex items-center space-x-1 ml-2">
-                {companyLinks.filter(l => l.label !== "Services").slice(2).map((link) => {
+                {companyLinks.filter(l => l.label !== "Services" && l.label !== "Home").map((link) => {
                   const LinkIcon =
                     iconMap[link.icon as keyof typeof iconMap] || iconMap.Home;
                   return (
@@ -451,7 +482,7 @@ const Navbar = () => {
                 <div className="p-6 border-b border-border/50 flex-shrink-0">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      <div className="relative" style={{ marginBottom: "-1.5rem" }}>
+                      <div className="relative -ml-8" style={{ marginBottom: "-1.5rem" }}>
                         <img
                           src={logo2nd}
                           alt="Shoals Junk Pros Logo"
