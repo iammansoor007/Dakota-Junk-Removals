@@ -213,13 +213,13 @@ const Navbar = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   <span className="flex items-center space-x-2">
-                    <Wrench className={`h-4 w-4 group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#154D85]" : "text-white/90"}`} />
+                    <Wrench className={`h-4 w-4 group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/90"}`} />
                     <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
                       Services
                     </span>
                   </span>
                   <motion.span
-                    className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#154D85]" : "text-white/90"}`}
+                    className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/90"}`}
                     animate={{
                       rotate: activeMegaMenu === "services" ? 180 : 0,
                     }}
@@ -340,7 +340,7 @@ const Navbar = () => {
               </div>
 
               <div className="flex items-center space-x-1 ml-2">
-                {companyLinks.slice(2).map((link) => {
+                {companyLinks.filter(l => l.label !== "Services").slice(2).map((link) => {
                   const LinkIcon =
                     iconMap[link.icon as keyof typeof iconMap] || iconMap.Home;
                   return (
@@ -359,7 +359,7 @@ const Navbar = () => {
                       whileHover={{ scale: 1.05, y: -2 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      <div className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#154D85]" : "text-white/80"}`}>
+                      <div className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/80"}`}>
                         <LinkIcon />
                       </div>
                       <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
@@ -518,7 +518,7 @@ const Navbar = () => {
                         Quick Links
                       </h3>
                       <div className="space-y-2">
-                        {companyLinks.map((link) => {
+                        {companyLinks.filter(l => l.label !== "Services").map((link) => {
                           const LinkIcon =
                             iconMap[link.icon as keyof typeof iconMap] ||
                             iconMap.Home;
