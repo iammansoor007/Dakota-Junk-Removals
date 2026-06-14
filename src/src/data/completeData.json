@@ -1,0 +1,1156 @@
+{
+  "navbar": {
+    "services": [
+      {
+        "title": "JUNK REMOVAL & CLEANOUTS",
+        "description": "Residential and commercial junk removal, cleanouts, and hauling services",
+        "icon": "Home",
+        "items": [
+          "Garage Cleanouts",
+          "Shed Cleanouts",
+          "Attic Cleanouts",
+          "Basement Cleanouts",
+          "Storage Unit Cleanouts",
+          "Estate Cleanouts"
+        ],
+        "features": [
+          "Fast Response",
+          "Reliable Service",
+          "Thorough Cleanup"
+        ]
+      },
+      {
+        "title": "LIGHT DEMOLITION & REMOVAL",
+        "description": "Safe and efficient removal of sheds, fences, decks, and small structures",
+        "icon": "ClipboardCheck",
+        "items": [
+          "Shed Removal",
+          "Small Structure Removal",
+          "Fence Removal",
+          "Interior Tear-Outs",
+          "Deck Removal"
+        ],
+        "features": [
+          "Licensed & Insured",
+          "Free Estimates",
+          "Property Left Clean"
+        ]
+      },
+      {
+        "title": "MOVING & CLEANUP SERVICES",
+        "description": "Local moving help, construction cleanup, and debris hauling",
+        "icon": "Sun",
+        "items": [
+          "Local Moving Help",
+          "Furniture Moving",
+          "Loading & Unloading",
+          "Construction Site Cleanup",
+          "Jobsite Haul-Off"
+        ],
+        "features": [
+          "Personalized Service",
+          "Hard Working Team",
+          "Affordable Rates"
+        ]
+      }
+    ],
+    "companyLinks": [
+      {
+        "label": "Home",
+        "href": "#",
+        "icon": "Home"
+      },
+      {
+        "label": "About",
+        "href": "#about",
+        "icon": "Users"
+      },
+      {
+        "label": "Services",
+        "href": "#services",
+        "icon": "Briefcase"
+      },
+      {
+        "label": "Projects",
+        "href": "#portfolio",
+        "icon": "FileText"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact",
+        "icon": "MessageSquare"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Florence",
+        "label": "Headquarters",
+        "icon": "MapPin"
+      },
+      {
+        "value": "Shoals Area",
+        "label": "Local Service",
+        "icon": "Home"
+      },
+      {
+        "value": "Free",
+        "label": "Estimates",
+        "icon": "Star"
+      },
+      {
+        "value": "Fast",
+        "label": "Response Time",
+        "icon": "Shield"
+      }
+    ],
+    "cta": {
+      "title": "Get Your Free Estimate Today",
+      "description": "Tell us what you need and we'll see if we can help — fast, reliable, thorough junk removal",
+      "buttonText": "Request a Quote",
+      "buttonLink": "#contact"
+    }
+  },
+  "hero": {
+    "badge": "Your Local Junk Removal Pros",
+    "headlines": [
+      "Reclaim Your Space",
+      "Fast, Reliable & Thorough",
+      "Junk Removal Services"
+    ],
+    "description": "Helping homeowners, landlords, and contractors reclaim their space with professional junk removal, light demolition, moving assistance, and construction cleanup. Tell us what you need and we'll see if we can help.",
+    "buttons": [
+      {
+        "text": "Get a Free Estimate",
+        "href": "#contact",
+        "primary": true,
+        "icon": "FiArrowRight"
+      },
+      {
+        "text": "View Services",
+        "href": "#services",
+        "primary": false,
+        "icon": "FiArrowRight"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Florence, AL",
+        "label": "Headquarters",
+        "icon": "FiMapPin"
+      },
+      {
+        "value": "Muscle Shoals",
+        "label": "Service Area",
+        "icon": "RiBuildingLine"
+      },
+      {
+        "value": "Free",
+        "label": "Estimates",
+        "icon": "FiMessageSquare"
+      },
+      {
+        "value": "Quick",
+        "label": "Response",
+        "icon": "FiShield"
+      }
+    ]
+  },
+  "about": {
+    "badge": "Get to Know Us",
+    "headline": {
+      "prefix": "Welcome to",
+      "highlight": "Shoals Junk Pros",
+      "suffix": ""
+    },
+    "description": "We're a local, family-owned junk removal and property cleanout company based in <span class=\"font-semibold text-primary\">Florence, Alabama</span>. We help homeowners, landlords, real estate agents, and contractors remove unwanted items, debris, and eyesores — so you can reclaim your space without breaking your back.",
+    "image": {
+      "src": "ShoalsJunkProsCrew",
+      "alt": "Shoals Junk Pros professional cleanup crew",
+      "badge": "Your Local Junk Removal Pros"
+    },
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "Hidden Fees"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Customer Focus"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates Always"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "REQUEST A FREE ESTIMATE",
+        "href": "#contact",
+        "primary": true
+      },
+      {
+        "text": "OUR STORY",
+        "href": "#about-story",
+        "primary": false
+      }
+    ],
+    "trustBadges": {
+      "founded": "",
+      "headquarters": "Florence, Alabama"
+    }
+  },
+  "aboutStory": {
+    "badge": "Our Story",
+    "headline": {
+      "prefix": "Meet the",
+      "highlight": "Founder",
+      "suffix": "— Trenton Hips"
+    },
+    "description": [
+      "Shoals Junk Pros was founded by Trenton Hips, a hard-working local who saw a need for honest, reliable junk removal in the Shoals area. Trenton started the business because he noticed so many homeowners and landlords were overwhelmed by clutter — garages packed to the ceiling, attics full of stuff nobody wanted, old sheds falling apart in backyards.",
+      "His philosophy is simple: tell him what you need and he'll see if he can help. No job is too small, no mess too big. From a single piece of furniture to a full estate cleanout, Trenton and his team handle it with respect, hard work, and a commitment to leaving your property cleaner than they found it.",
+      "Today, Shoals Junk Pros serves Florence, Muscle Shoals, Sheffield, Tuscumbia, and the surrounding areas — helping the community reclaim their space one load at a time."
+    ],
+    "image": {
+      "src": "TrentonHips",
+      "alt": "Trenton Hips - Owner, Shoals Junk Pros",
+      "badge": "Owner & Founder"
+    },
+    "stats": [
+      {
+        "value": "Florence",
+        "suffix": ", AL",
+        "label": "Headquarters"
+      },
+      {
+        "value": "Shoals Area",
+        "suffix": "",
+        "label": "Service Region"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Our Services",
+    "headline": {
+      "prefix": "Tell Us What",
+      "highlight": "You Need",
+      "suffix": " — We'll See If We Can Help"
+    },
+    "description": [
+      "Shoals Junk Pros offers a full range of junk removal, cleanout, light demolition, and hauling services. Whether you're a homeowner with a cluttered garage, a landlord needing a tenant cleanout, or a contractor with construction debris, we've got you covered.",
+      "We do the heavy lifting so you don't have to. Just point us at the pile and we'll make it disappear."
+    ],
+    "stats": [
+      {
+        "value": 3,
+        "suffix": "",
+        "label": "Core Services"
+      },
+      {
+        "value": 15,
+        "suffix": "+",
+        "label": "Specialty Offerings"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      }
+    ],
+    "services": [
+      {
+        "number": "01",
+        "title": "Junk Removal & Cleanouts",
+        "description": "From garages and attics to basements and storage units — we remove the clutter you don't even know where to begin with.",
+        "icon": "Home",
+        "tag": "Residential",
+        "features": [
+          "Garage Cleanouts",
+          "Attic Cleanouts",
+          "Basement Cleanouts",
+          "Storage Unit Cleanouts"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Estate & Property Cleanouts",
+        "description": "Compassionate and thorough cleanout services for estates, evictions, foreclosure properties, and pre-sale preparation.",
+        "icon": "Building2",
+        "tag": "Property",
+        "features": [
+          "Estate Cleanouts",
+          "Eviction Cleanouts",
+          "Foreclosure Cleanouts",
+          "Realtor Prep"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Light Demolition",
+        "description": "Safe removal of old sheds, fences, decks, and small structures that have become eyesores on your property.",
+        "icon": "Hammer",
+        "tag": "Demo",
+        "features": [
+          "Shed Removal",
+          "Fence Removal",
+          "Deck Removal",
+          "Small Structure Removal"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Interior Tear-Outs",
+        "description": "Interior demolition and tear-out services for remodeling projects — we remove the old so you can build the new.",
+        "icon": "Shield",
+        "tag": "Remodel Prep",
+        "features": [
+          "Kitchen Tear-Outs",
+          "Bathroom Tear-Outs",
+          "Flooring Removal",
+          "Cabinetry Removal"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Moving Services",
+        "description": "Local moving help for homeowners and renters — furniture moving, loading, unloading, and heavy lifting assistance.",
+        "icon": "Droplets",
+        "tag": "Moving",
+        "features": [
+          "Local Moving Help",
+          "Furniture Moving",
+          "Loading Assistance",
+          "Unloading Assistance"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Construction Site Cleanup",
+        "description": "Post-construction debris removal, scrap material haul-off, and jobsite cleanup for contractors and builders.",
+        "icon": "Wrench",
+        "tag": "Contractor",
+        "features": [
+          "Construction Debris",
+          "Scrap Material Removal",
+          "Jobsite Haul-Off",
+          "Post-Construction Cleanup"
+        ]
+      },
+      {
+        "number": "07",
+        "title": "General Hauling Services",
+        "description": "Custom hauling for anything you need moved, removed, or disposed of — just ask and we'll see if we can help.",
+        "icon": "Tool",
+        "tag": "Custom",
+        "features": [
+          "Yard Waste Removal",
+          "Furniture Haul-Away",
+          "Appliance Removal",
+          "Miscellaneous Hauling"
+        ]
+      },
+      {
+        "number": "08",
+        "title": "Garage Cleanouts",
+        "description": "Transform your garage from a cluttered mess into usable space — we haul away everything you don't need.",
+        "icon": "Layers",
+        "tag": "Popular",
+        "features": [
+          "Full Garage Cleanouts",
+          "Partial Cleanouts",
+          "Organizing Help",
+          "Same-Day Available"
+        ]
+      },
+      {
+        "number": "09",
+        "title": "Shed & Structure Removal",
+        "description": "Old shed falling apart? We'll tear it down and haul away every piece, leaving your yard clean and usable.",
+        "icon": "Palette",
+        "tag": "Outdoor",
+        "features": [
+          "Complete Shed Demo",
+          "Debris Hauling",
+          "Site Cleanup",
+          "Permit Assistance"
+        ]
+      },
+      {
+        "number": "10",
+        "title": "Landlord Cleanouts",
+        "description": "Fast, thorough cleanouts for property managers and landlords — perfect for tenant turnovers and evictions.",
+        "icon": "Grid",
+        "tag": "Property Mgmt",
+        "features": [
+          "Tenant Cleanouts",
+          "Eviction Cleanouts",
+          "Quick Turnaround",
+          "Bulk Item Removal"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Not Sure If We Can Help?",
+      "description": "Just tell us what you need and we'll be honest with you. Call or text us for your free, no-obligation estimate today.",
+      "buttonText": "Contact Us",
+      "buttonLink": "#contact"
+    }
+  },
+  "whyChooseUs": {
+    "section": {
+      "badge": "WHY CHOOSE US",
+      "headline": "Fast, Reliable, <span class=\"text-primary\">Thorough</span>",
+      "description": "When you're dealing with clutter, old sheds, or a property full of stuff you don't want, you need a team that shows up on time, works hard, and leaves your place clean."
+    },
+    "features": [
+      {
+        "icon": "Award",
+        "title": "Fast Response",
+        "description": "We schedule quickly and show up when we say we will. No waiting around for days or weeks."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Tell Us What You Need",
+        "description": "We don't do cookie-cutter service. Tell us your situation and we'll see if we can help — custom solutions for every customer."
+      },
+      {
+        "icon": "Globe",
+        "title": "Local & Family-Owned",
+        "description": "We're your neighbors in the Shoals area. We care about our community and treat every property like it's our own."
+      },
+      {
+        "icon": "Clock",
+        "title": "You Don't Lift a Finger",
+        "description": "Don't want to climb through your attic or haul heavy furniture? No problem. We do the heavy lifting so you don't have to."
+      },
+      {
+        "icon": "Shield",
+        "title": "Free Estimates, Always",
+        "description": "No obligation, no pressure, no hidden fees. Just an honest assessment and a fair price."
+      },
+      {
+        "icon": "Check",
+        "title": "Thorough Cleanup",
+        "description": "We don't just haul stuff away — we sweep, clean, and leave your property looking better than we found it."
+      }
+    ],
+    "stats": [
+      {
+        "value": "Florence",
+        "suffix": "",
+        "label": "Based In"
+      },
+      {
+        "value": "4",
+        "suffix": " Cities",
+        "label": "Primary Service Area"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      },
+      {
+        "value": "Quick",
+        "suffix": "",
+        "label": "Response"
+      }
+    ],
+    "cta": {
+      "badge": "GET STARTED",
+      "title": "Ready to <span class=\"\">Reclaim Your Space?</span>",
+      "description": "Call or text (256) 394-6185 or request your free estimate online. Tell us what you need and we'll see if we can help.",
+      "trustBadges": [
+        "Local",
+        "Family-Owned",
+        "Free Estimates"
+      ],
+      "buttons": [
+        {
+          "text": "Get Free Estimate",
+          "href": "#contact",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "section": {
+      "badge": "Our Work",
+      "headline": "Before & <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70\">After</span>"
+    },
+    "projects": [
+      {
+        "number": "01",
+        "title": "Florence Garage Cleanout",
+        "category": "Residential",
+        "image": "portfolio1",
+        "location": "Florence, AL",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Full Garage Cleanout",
+        "desc": "From packed to the ceiling to completely empty and swept — a family garage reclaimed."
+      },
+      {
+        "number": "02",
+        "title": "Old Shed Removal",
+        "category": "Demolition",
+        "image": "portfolio2",
+        "location": "Muscle Shoals, AL",
+        "year": "2025",
+        "accent": "from-primary to-primary/70",
+        "scope": "Shed Demo & Haul-Off",
+        "desc": "Falling-down shed removed, debris hauled away, yard left clean and usable."
+      },
+      {
+        "number": "03",
+        "title": "Estate Cleanout",
+        "category": "Property",
+        "image": "portfolio3",
+        "location": "Tuscumbia, AL",
+        "year": "2024",
+        "accent": "from-primary/90 to-primary/60",
+        "scope": "Full Estate Cleanout",
+        "desc": "Compassionate cleanout of a family home — everything removed, property left ready for sale."
+      },
+      {
+        "number": "04",
+        "title": "Construction Debris Haul-Off",
+        "category": "Contractor",
+        "image": "portfolio4",
+        "location": "Sheffield, AL",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Jobsite Cleanup",
+        "desc": "Post-remodel debris removal and jobsite cleanup for a local contractor."
+      },
+      {
+        "number": "05",
+        "title": "Attic Cleanout",
+        "category": "Residential",
+        "image": "portfolio5",
+        "location": "Florence, AL",
+        "year": "2024",
+        "accent": "from-primary/80 to-primary/60",
+        "scope": "Attic & Storage",
+        "desc": "Decades of stored items removed from an attic — homeowner didn't have to lift a finger."
+      }
+    ],
+    "button": {
+      "text": "View More Projects",
+      "link": "#portfolio"
+    }
+  },
+  "testimonials": {
+    "section": {
+      "badge": "Client Testimonials",
+      "headline": "What Our Customers Say",
+      "description": "Hear from homeowners, landlords, and contractors who called Shoals Junk Pros to reclaim their space.",
+      "featured": "Trusted Junk Removal Pros in the Shoals Area"
+    },
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Linda M.",
+        "position": "Homeowner",
+        "company": "Florence",
+        "avatar": "LM",
+        "text": "My garage was so full I couldn't park my car. Trenton and his team came out, gave me a fair price, and had it cleaned out in a few hours. I can finally use my garage again!"
+      },
+      {
+        "id": 2,
+        "name": "David R.",
+        "position": "Property Manager",
+        "company": "Muscle Shoals",
+        "avatar": "DR",
+        "text": "I manage several rental properties and Shoals Junk Pros is my go-to for tenant cleanouts. Fast, reliable, and thorough every time."
+      },
+      {
+        "id": 3,
+        "name": "Jennifer K.",
+        "position": "Realtor",
+        "company": "Sheffield",
+        "avatar": "JK",
+        "text": "Had a foreclosure property that needed a full cleanout before listing. Shoals Junk Pros handled everything professionally and quickly. Highly recommend."
+      },
+      {
+        "id": 4,
+        "name": "Mike T.",
+        "position": "Contractor",
+        "company": "Tuscumbia",
+        "avatar": "MT",
+        "text": "I use them for construction debris haul-off on my renovation projects. They show up on time, work hard, and clean up after themselves. Great service."
+      },
+      {
+        "id": 5,
+        "name": "Trenton Hips",
+        "position": "Owner & Founder",
+        "company": "Shoals Junk Pros",
+        "avatar": "TH",
+        "text": "I started this business because I believe in helping people. If you're overwhelmed by clutter, don't know where to begin, or just don't want to do the heavy lifting yourself — give me a call. Tell me what you need and I'll see if I can help. That's a promise."
+      }
+    ],
+    "videos": [
+      {
+        "id": "v1",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Garage Cleanout Before & After",
+        "name": "Linda M."
+      },
+      {
+        "id": "v2",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Shed Removal Project",
+        "name": "Shoals Junk Pros"
+      },
+      {
+        "id": "v3",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Estate Cleanout Walkthrough",
+        "name": "David R."
+      },
+      {
+        "id": "v4",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Construction Debris Haul-Off",
+        "name": "Mike T."
+      }
+    ],
+    "stats": {
+      "reviewPlatform": "Google Reviews",
+      "satisfactionFocus": "100% Customer Focus",
+      "totalVideos": 18
+    }
+  },
+  "faq": {
+    "section": {
+      "badge": "Knowledge Base",
+      "headline": "Frequently Asked Questions",
+      "description": "Honest answers about our junk removal, cleanout, and hauling services."
+    },
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Questions",
+        "icon": null
+      },
+      {
+        "id": "junk-removal",
+        "label": "Junk Removal",
+        "icon": "Home"
+      },
+      {
+        "id": "cleanouts",
+        "label": "Cleanouts",
+        "icon": "Hammer"
+      },
+      {
+        "id": "demolition",
+        "label": "Demolition",
+        "icon": "Shield"
+      },
+      {
+        "id": "moving",
+        "label": "Moving",
+        "icon": "Droplets"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "category": "junk-removal",
+        "question": "What items do you haul away?",
+        "answer": "We haul just about anything — furniture, appliances, electronics, yard waste, construction debris, old sheds, fencing, mattresses, toys, garage clutter, attic junk, basement storage, and more. Just tell us what you need and we'll see if we can help.",
+        "metadata": [
+          {
+            "label": "Furniture",
+            "value": "Yes"
+          },
+          {
+            "label": "Appliances",
+            "value": "Yes"
+          },
+          {
+            "label": "Construction Debris",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "junk-removal",
+        "question": "Do you offer free estimates?",
+        "answer": "Yes! All estimates are free, no-obligation, and we never have hidden fees. We'll come to your property, look at what you need removed, and give you an honest price.",
+        "metadata": [
+          {
+            "label": "Cost",
+            "value": "Free"
+          },
+          {
+            "label": "Obligation",
+            "value": "None"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "cleanouts",
+        "question": "Do I need to sort or box anything before you arrive?",
+        "answer": "Nope! That's what we're here for. You don't even have to climb through your attic or move heavy furniture. Just show us what you want gone and we'll handle the rest.",
+        "metadata": [
+          {
+            "label": "You Lift?",
+            "value": "No"
+          },
+          {
+            "label": "We Lift?",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "cleanouts",
+        "question": "Do you do estate cleanouts?",
+        "answer": "Yes, we provide compassionate and thorough estate cleanouts. We understand it can be a difficult time, and we work respectfully and efficiently to clear the property.",
+        "metadata": [
+          {
+            "label": "Compassionate",
+            "value": "Yes"
+          },
+          {
+            "label": "Full Cleanout",
+            "value": "Available"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "demolition",
+        "question": "What kind of demolition do you do?",
+        "answer": "We specialize in light demolition — old sheds, small structures, fences, decks, interior tear-outs for remodeling projects. We tear it down and haul it all away.",
+        "metadata": [
+          {
+            "label": "Sheds",
+            "value": "Yes"
+          },
+          {
+            "label": "Fences",
+            "value": "Yes"
+          },
+          {
+            "label": "Interior",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "demolition",
+        "question": "Do you handle permits for demolition?",
+        "answer": "We can help guide you on what's needed, but permit requirements vary by city. We'll let you know what's required for your specific project.",
+        "metadata": [
+          {
+            "label": "Permit Help",
+            "value": "Guidance Provided"
+          },
+          {
+            "label": "We Pull Permits",
+            "value": "Check with us"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "category": "moving",
+        "question": "Do you offer moving services?",
+        "answer": "Yes — local moving help including furniture moving, loading trucks or pods, and unloading assistance. Perfect if you just need an extra set of hands for the heavy stuff.",
+        "metadata": [
+          {
+            "label": "Loading",
+            "value": "Yes"
+          },
+          {
+            "label": "Unloading",
+            "value": "Yes"
+          },
+          {
+            "label": "Furniture Only",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "category": "junk-removal",
+        "question": "What areas do you serve?",
+        "answer": "We primarily serve Florence, Muscle Shoals, Sheffield, Tuscumbia, and the surrounding Shoals area. If you're just outside our main area, give us a call — we might still be able to help.",
+        "metadata": [
+          {
+            "label": "Primary",
+            "value": "Florence, Muscle Shoals"
+          },
+          {
+            "label": "Also",
+            "value": "Sheffield, Tuscumbia"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "category": "junk-removal",
+        "question": "How fast can you come out?",
+        "answer": "We pride ourselves on fast response. In most cases, we can schedule you within a few days — sometimes same-day depending on our current workload.",
+        "metadata": [
+          {
+            "label": "Typical",
+            "value": "Within days"
+          },
+          {
+            "label": "Same-Day",
+            "value": "Possible"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "category": "cleanouts",
+        "question": "Do you work with landlords and property managers?",
+        "answer": "Absolutely. We're the preferred junk removal partner for many property managers in the Shoals area. Tenant cleanouts, eviction cleanouts, and property turnovers are our specialty.",
+        "metadata": [
+          {
+            "label": "Landlord Discounts",
+            "value": "Ask about recurring"
+          },
+          {
+            "label": "Fast Turnaround",
+            "value": "Yes"
+          }
+        ]
+      }
+    ],
+    "knowledgeCard": {
+      "title": "Still Have Questions?",
+      "description": "Not sure if we can help with your specific situation? Just tell us what you need and we'll give you an honest answer.",
+      "buttons": [
+        {
+          "text": "Call or Text Us",
+          "href": "#contact",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "quote": {
+    "section": {
+      "badge": "GET STARTED",
+      "headline": "Request Your <span class=\"font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-primary/80\">Free Estimate Today</span>",
+      "description": "Tell us what you need and we'll see if we can help. Free, no-obligation estimates — no hidden fees, just honest work."
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Junk Removal",
+        "desc": "Any unwanted items",
+        "icon": "⌗"
+      },
+      {
+        "id": 2,
+        "title": "Garage Cleanout",
+        "desc": "Full or partial",
+        "icon": "⎔"
+      },
+      {
+        "id": 3,
+        "title": "Shed Removal",
+        "desc": "Demo & haul-off",
+        "icon": "⌖"
+      },
+      {
+        "id": 4,
+        "title": "Estate Cleanout",
+        "desc": "Full property",
+        "icon": "⌘"
+      },
+      {
+        "id": 5,
+        "title": "Moving Help",
+        "desc": "Loading or unloading",
+        "icon": "⚡"
+      },
+      {
+        "id": 6,
+        "title": "Construction Cleanup",
+        "desc": "Debris hauling",
+        "icon": "◈"
+      }
+    ],
+    "projectTypes": [
+      {
+        "value": "residential",
+        "label": "Homeowner"
+      },
+      {
+        "value": "landlord",
+        "label": "Landlord / Property Manager"
+      },
+      {
+        "value": "realtor",
+        "label": "Realtor"
+      },
+      {
+        "value": "contractor",
+        "label": "Contractor"
+      }
+    ],
+    "timelines": [
+      {
+        "value": "urgent",
+        "label": "Urgent (ASAP)"
+      },
+      {
+        "value": "standard",
+        "label": "Standard (within a week)"
+      },
+      {
+        "value": "planned",
+        "label": "Planned (1-2 weeks)"
+      },
+      {
+        "value": "future",
+        "label": "Future Project (3+ weeks)"
+      }
+    ],
+    "email": "info@shoalsjunkpros.com",
+    "success": {
+      "title": "Estimate Request Received",
+      "message": "Your request has been sent to Shoals Junk Pros.",
+      "response": "We'll respond quickly to schedule your free estimate. Tell us what you need and we'll see if we can help.",
+      "buttonText": "Close"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "Shoals Junk Pros",
+      "tagline": "YOUR LOCAL JUNK REMOVAL PROS",
+      "description": "Fast, reliable, and thorough junk removal, cleanouts, light demolition, and hauling services for homeowners, landlords, and contractors in the Shoals area."
+    },
+    "services": {
+      "title": "Our Services",
+      "main": [
+        {
+          "label": "Junk Removal",
+          "href": "/junk-removal",
+          "icon": "Home"
+        },
+        {
+          "label": "Garage Cleanouts",
+          "href": "/garage-cleanouts",
+          "icon": "Building2"
+        },
+        {
+          "label": "Shed Removal",
+          "href": "/shed-removal",
+          "icon": "Hammer"
+        },
+        {
+          "label": "Estate Cleanouts",
+          "href": "/estate-cleanouts",
+          "icon": "Shield"
+        },
+        {
+          "label": "Light Demolition",
+          "href": "/light-demolition",
+          "icon": "Wrench"
+        },
+        {
+          "label": "Moving Services",
+          "href": "/moving-services",
+          "icon": "Tool"
+        },
+        {
+          "label": "Construction Cleanup",
+          "href": "/construction-cleanup",
+          "icon": "Layers"
+        },
+        {
+          "label": "Landlord Cleanouts",
+          "href": "/landlord-cleanouts",
+          "icon": "Palette"
+        }
+      ],
+      "materials": {
+        "title": "Service Area",
+        "items": [
+          {
+            "label": "Florence, AL",
+            "href": "/florence"
+          },
+          {
+            "label": "Muscle Shoals, AL",
+            "href": "/muscle-shoals"
+          },
+          {
+            "label": "Sheffield, AL",
+            "href": "/sheffield"
+          },
+          {
+            "label": "Tuscumbia, AL",
+            "href": "/tuscumbia"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "info@shoalsjunkpros.com",
+      "phone": "+1 (256) 394-6185",
+      "address": "Florence, Alabama",
+      "emergency": "",
+      "areas": "Florence • Muscle Shoals • Sheffield • Tuscumbia"
+    },
+    "certifications": [
+      {
+        "cert": "Free",
+        "number": "Estimates",
+        "icon": "MessageSquare"
+      },
+      {
+        "cert": "Fast",
+        "number": "Response",
+        "icon": "Clock"
+      },
+      {
+        "cert": "Local",
+        "number": "Family-Owned",
+        "icon": "Home"
+      },
+      {
+        "cert": "Reliable",
+        "number": "Service",
+        "icon": "Check"
+      },
+      {
+        "cert": "Thorough",
+        "number": "Cleanup",
+        "icon": "Star"
+      },
+      {
+        "cert": "Hard",
+        "number": "Working",
+        "icon": "Award"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Free Estimate",
+        "href": "#contact",
+        "icon": "Phone"
+      },
+      {
+        "label": "Before & After",
+        "href": "#portfolio",
+        "icon": "FileText"
+      },
+      {
+        "label": "About Us",
+        "href": "#about",
+        "icon": "Users"
+      }
+    ],
+    "social": [
+      {
+        "platform": "Email",
+        "icon": "Mail",
+        "href": "mailto:info@shoalsjunkpros.com"
+      },
+      {
+        "platform": "Phone",
+        "icon": "Phone",
+        "href": "tel:+12563946185"
+      },
+      {
+        "platform": "Facebook",
+        "icon": "Facebook",
+        "href": "#"
+      },
+      {
+        "platform": "Instagram",
+        "icon": "Instagram",
+        "href": "#"
+      },
+      {
+        "platform": "LinkedIn",
+        "icon": "Linkedin",
+        "href": "#"
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2026 Shoals Junk Pros",
+      "rights": "All rights reserved",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms"
+        }
+      ],
+      "tagline": "YOUR LOCAL JUNK REMOVAL PROS"
+    },
+    "marquee": {
+      "texts": [
+        "RECLAIM YOUR SPACE",
+        "FAST • RELIABLE • THOROUGH",
+        "FREE ESTIMATES • LOCAL • FAMILY-OWNED"
+      ]
+    }
+  },
+  "leadership": {
+    "section": {
+      "badge": "OUR LEADERSHIP",
+      "headline": "Meet Your <span class=\"text-primary\">Local Junk Removal Pros</span>",
+      "description": "At Shoals Junk Pros, we believe in honest work, fair prices, and helping our neighbors reclaim their space — one truckload at a time."
+    },
+    "ceo": {
+      "name": "Trenton Hips",
+      "title": "OWNER & FOUNDER",
+      "quotes": [
+        "I started Shoals Junk Pros because I saw so many people overwhelmed by clutter — garages you couldn't walk through, attics full of stuff nobody wanted, old sheds falling apart in backyards. They didn't know where to begin. That's where we come in."
+      ],
+      "description": [
+        "Trenton Hips is a hard-working local who built Shoals Junk Pros from the ground up with one simple philosophy: tell him what you need and he'll see if he can help. No job is too small, no mess too big. From a single piece of furniture to a full estate cleanout, Trenton and his team handle it with respect, hard work, and a commitment to leaving your property cleaner than they found it.",
+        "Based in Florence, Alabama, Trenton leads a team dedicated to fast response, reliable service, and thorough cleanup. He understands that dealing with clutter can be stressful — so he makes the process simple, affordable, and hassle-free. You don't lift a finger. You don't climb through your attic. You just point at the pile and it disappears."
+      ],
+      "social": {
+        "linkedin": "#",
+        "email": "info@shoalsjunkpros.com"
+      },
+      "badges": {
+        "top": "Hard Working",
+        "bottom": "Community Focused"
+      },
+      "alt": "Trenton Hips - Owner & Founder of Shoals Junk Pros"
+    }
+  }
+}
