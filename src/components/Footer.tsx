@@ -12,8 +12,8 @@ import completeData from "../src/data/completeData.json";
 gsap.registerPlugin(ScrollTrigger);
 
 /* ─── Brand palette constants ─────────────────────────── */
-const GOLD = "#F28C28"; // Accent Orange
-const DARK_GOLD = "#D97706"; // Accent Dark
+const GOLD = "#4D7C0F"; // Dark Green
+const DARK_GOLD = "#36530A"; // Darker Green
 const SILVER = "#E2E8F0"; // Light Silver for text contrast
 const BG = "#111111"; // Dark Charcoal Footer Background
 const CARD = "rgba(255, 255, 255, 0.04)"; // Brand card translucent background
@@ -771,8 +771,8 @@ const Footer = () => {
           <div className="footer-reveal space-y-6">
             {/* Logo */}
             <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-              <div style={{ width: 44, height: 44, borderRadius: "50%", background: `linear-gradient(135deg, ${GOLD}, ${DARK_GOLD})`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 4px 20px rgba(242,140,40,0.3)` }}>
-                <span style={{ color: "#FFF", fontWeight: 900, fontSize: "0.85rem", fontFamily: "'Outfit', sans-serif", letterSpacing: "0.05em" }}>TC</span>
+              <div style={{ width: 44, height: 44, borderRadius: "50%", background: `linear-gradient(135deg, ${GOLD}, ${DARK_GOLD})`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 4px 20px rgba(77,124,15,0.3)` }}>
+                <span style={{ color: "#FFF", fontWeight: 900, fontSize: "0.85rem", fontFamily: "'Outfit', sans-serif", letterSpacing: "0.05em" }}>DJ</span>
               </div>
               <div>
                 <span style={{ color: "#fff", fontFamily: "'Outfit', sans-serif", fontSize: "1rem", fontWeight: 600, display: "block" }}>{company.name}</span>

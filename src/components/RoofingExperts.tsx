@@ -1,7 +1,8 @@
 import { motion, useInView, useReducedMotion } from "framer-motion";
 import { useRef, useEffect, useState, useCallback, useMemo, memo } from "react";
-import AboutImg from "@/assets/aboutshoals.webp";
+import AboutImg from "@/assets/dakota_crew.png";
 import completeData from "../src/data/completeData.json";
+
 
 const Counter = memo(
   ({
@@ -105,10 +106,10 @@ const StatCard = memo(
         style={{ background: "#FFFFFF", border: "1px solid #E2E8F0" }}
       >
         <div className="relative">
-          <span className="text-2xl sm:text-3xl md:text-4xl font-black" style={{ color: "#154D85" }}>
+          <span className="text-2xl sm:text-3xl md:text-4xl font-black" style={{ color: "#4D7C0F" }}>
             <Counter value={value} suffix={suffix} />
           </span>
-          <div className="absolute -bottom-1 sm:-bottom-2 left-0 w-8 sm:w-12 h-0.5 rounded-full" style={{ background: "#154D85" }} />
+          <div className="absolute -bottom-1 sm:-bottom-2 left-0 w-8 sm:w-12 h-0.5 rounded-full" style={{ background: "#4D7C0F" }} />
         </div>
         <p className="text-[10px] sm:text-xs font-bold mt-3 leading-tight uppercase tracking-wide" style={{ color: "#1F293799" }}>
           {label}
@@ -173,7 +174,7 @@ export default function AboutSection() {
     <section
       ref={sectionRef}
       className="relative bg-background overflow-hidden py-6 md:py-8 lg:py-12"
-      aria-label="About Shoals Junk Pros"
+      aria-label="About Dakota Junk Removals"
     >
       <div className="absolute inset-0">
         <ParticlesBackground />
@@ -240,10 +241,10 @@ export default function AboutSection() {
               variants={variants}
               custom={2}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border w-fit"
-              style={{ background: "#F28C2810", borderColor: "#F28C2830" }}
+              style={{ background: "#4D7C0F10", borderColor: "#4D7C0F30" }}
             >
-              <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#F28C28" }} />
-              <span className="uppercase tracking-[0.2em] text-xs font-black" style={{ color: "#F28C28" }}>
+              <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#4D7C0F" }} />
+              <span className="uppercase tracking-[0.2em] text-xs font-black" style={{ color: "#4D7C0F" }}>
                 {badge}
               </span>
             </motion.div>
@@ -256,7 +257,7 @@ export default function AboutSection() {
                 style={{ color: "#1F2937", fontFamily: "'Outfit', sans-serif" }}
               >
                 {headline.prefix}{" "}
-                <span style={{ color: "#F28C28" }}>{headline.highlight}</span>{" "}
+                <span style={{ color: "#4D7C0F" }}>{headline.highlight}</span>{" "}
                 <span style={{ color: "#1F2937" }}>{headline.suffix}</span>
               </motion.h2>
 
@@ -264,7 +265,7 @@ export default function AboutSection() {
                 variants={variants}
                 custom={4}
                 className="w-20 h-1 rounded-full"
-                style={{ background: "#F28C28" }}
+                style={{ background: "#4D7C0F" }}
               />
             </div>
 
@@ -304,7 +305,7 @@ export default function AboutSection() {
                       whileHover={{ scale: 1.03, y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       className="group relative overflow-hidden w-full sm:w-auto md:w-auto min-w-[180px] sm:min-w-[200px] md:min-w-[180px] lg:min-w-[200px] px-5 sm:px-8 md:px-6 lg:px-8 py-3 sm:py-4 md:py-3.5 lg:py-4 rounded-2xl inline-flex items-center justify-center gap-2 font-semibold sm:font-bold text-sm sm:text-base transition-all duration-300"
-                      style={{ background: "#F28C28", color: "#FFF", boxShadow: "0 8px 32px rgba(242,140,40,0.25)" }}
+                      style={{ background: "#4D7C0F", color: "#FFFFFF", boxShadow: "0 8px 32px rgba(77, 124, 15, 0.25)" }}
                     >
                       <span
                         className="

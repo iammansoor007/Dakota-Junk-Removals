@@ -5,40 +5,71 @@
 @layer base {
   :root {
     /* ===============================
-       HIGH-CONTRAST HOME SERVICES THEME
-       White + Black/Charcoal (#111111) + Accent Orange (#F28C28)
+       DAKOTA JUNK REMOVALS LIGHT MODE
        ================================= */
-
-    --background: 0 0% 98%;          /* #FAFAFA */
-    --foreground: 0 0% 9%;           /* #171717 */
-    --popover-foreground: 0 0% 9%;
-    --card-foreground: 0 0% 9%;
-    --card: 0 0% 100%;             /* #FFFFFF */
+    --background: 90 18% 98%;          /* #F8FAF7 */
+    --foreground: 222 40% 11%;         /* #111827 */
+    --popover-foreground: 222 40% 11%;
+    --card-foreground: 222 40% 11%;
+    --card: 0 0% 100%;                 /* #FFFFFF */
     --popover: 0 0% 100%;
-    --primary: 0 0% 7%;            /* #111111 */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 0 0% 15%;          /* #262626 */
-    --secondary-foreground: 0 0% 100%;
-    --accent: 30 89% 55%;          /* #F28C28 */
-    --accent-foreground: 0 0% 100%;
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
-    --border: 0 0% 89%;
-    --input: 0 0% 89%;
+    --primary: 84 82% 27%;             /* #4D7C0F (Dark Green) */
+    --primary-foreground: 0 0% 100%;   /* #FFFFFF (White) */
+    --secondary: 83 74% 36%;           /* #6B9E18 (Dark Green) */
+    --secondary-foreground: 0 0% 100%; /* #FFFFFF */
+    --accent: 84 82% 27%;              /* #4D7C0F */
+    --accent-foreground: 210 10% 7%;
+    --muted: 220 14% 90%;              /* #E5E7EB */
+    --muted-foreground: 220 9% 46%;    /* #6B7280 */
+    --border: 220 14% 90%;             /* #E5E7EB */
+    --input: 220 14% 90%;
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 100%;
-    --ring: 0 0% 7%;
+    --ring: 76 71% 48%;
     --radius: 0.75rem;
     --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 0 0% 9%;
-    --sidebar-primary: 0 0% 7%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 30 89% 55%;
+    --sidebar-foreground: 222 40% 11%;
+    --sidebar-primary: 76 71% 48%;
+    --sidebar-primary-foreground: 210 10% 7%;
+    --sidebar-accent: 83 74% 36%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 89%;
-    --sidebar-ring: 0 0% 7%;
+    --sidebar-border: 220 14% 90%;
+    --sidebar-ring: 76 71% 48%;
     --font-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .dark {
+    /* ===============================
+       DAKOTA JUNK REMOVALS DARK MODE
+       ================================= */
+    --background: 210 10% 7%;          /* #0F1113 (Deep Black) */
+    --foreground: 0 0% 100%;           /* #FFFFFF */
+    --popover-foreground: 0 0% 100%;
+    --card-foreground: 0 0% 100%;
+    --card: 216 12% 12%;               /* #1A1D21 (Charcoal) */
+    --popover: 216 12% 12%;
+    --primary: 84 82% 27%;             /* #4D7C0F (Dark Green) */
+    --primary-foreground: 0 0% 100%;   /* #FFFFFF (White) */
+    --secondary: 83 74% 36%;           /* #6B9E18 (Dark Green) */
+    --secondary-foreground: 0 0% 100%; /* #FFFFFF */
+    --accent: 84 82% 27%;              /* #4D7C0F */
+    --accent-foreground: 210 10% 7%;
+    --muted: 214 10% 18%;              /* #2B2F34 */
+    --muted-foreground: 213 10% 73%;    /* #B3BAC3 */
+    --border: 214 10% 18%;             /* #2B2F34 */
+    --input: 214 10% 18%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 76 71% 48%;
+    --sidebar-background: 216 12% 12%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 76 71% 48%;
+    --sidebar-primary-foreground: 210 10% 7%;
+    --sidebar-accent: 83 74% 36%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 214 10% 18%;
+    --sidebar-ring: 76 71% 48%;
   }
 }
 
@@ -186,73 +217,88 @@
 
   /* CTA BUTTON */
   .bg-gradient-cta {
-    background: #F28C28;
+    background: #4D7C0F;
     color: #FFFFFF;
   }
-
+ 
   /* PRIMARY BUTTON */
   .drpaint-btn-primary {
-    background: #F28C28;
+    background: #4D7C0F;
     color: #FFFFFF;
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
     border-radius: 0.75rem;
     font-weight: 600;
-    box-shadow: 0 10px 25px rgba(242, 140, 40, 0.15);
+    box-shadow: 0 10px 25px rgba(77, 124, 15, 0.15);
     will-change: transform;
   }
   .drpaint-btn-primary:hover {
-    background: #D97706;
+    background: #5F9913;
     transform: translateY(-3px);
-    box-shadow: 0 16px 35px rgba(242, 140, 40, 0.25);
+    box-shadow: 0 16px 35px rgba(77, 124, 15, 0.25);
   }
-
+ 
   /* SECONDARY BUTTON */
   .drpaint-btn-secondary {
-    background: #154D85;
+    background: #1A1D21;
     color: #FFFFFF;
-    border: 1px solid #154D85;
+    border: 1px solid #2B2F34;
     transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
     border-radius: 0.75rem;
     font-weight: 600;
     will-change: transform;
   }
   .drpaint-btn-secondary:hover {
-    background: #0E2E4F;
-    border-color: #0E2E4F;
+    background: #2B2F34;
+    border-color: #4D7C0F;
     color: #FFFFFF;
     transform: translateY(-2px);
   }
-
+ 
   /* CARD SYSTEM */
   .drpaint-card {
-    background: #FFFFFF;
-    border: 1px solid rgba(21, 77, 133, 0.1);
-    box-shadow: 0 10px 30px rgba(14, 46, 79, 0.05);
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 1rem;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
   }
-
+  .drpaint-card:hover {
+    border-color: #4D7C0F;
+    box-shadow: 0 0 20px rgba(77, 124, 15, 0.25);
+  }
+ 
   .drpaint-shadow {
-    box-shadow: 0 10px 25px rgba(14, 46, 79, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   }
-
+ 
   /* NAVBAR GLASS */
   .navbar-glass {
-    background: rgba(255, 255, 255, 0.90);
+    background: rgba(26, 29, 33, 0.90);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(21, 77, 133, 0.1);
+    border-bottom: 1px solid rgba(77, 124, 15, 0.1);
   }
 
   /* HERO OVERLAY */
   .hero-overlay {
-    background: linear-gradient(135deg, rgba(14, 46, 79, 0.90), rgba(21, 77, 133, 0.80));
+    background: linear-gradient(135deg, rgba(15, 17, 19, 0.90), rgba(26, 29, 33, 0.80));
+  }
+
+  /* HERO SECTION GRADIENT */
+  .bg-hero-gradient {
+    background: linear-gradient(
+      135deg,
+      #0F1113 0%,
+      #1A1D21 50%,
+      #243015 100%
+    );
   }
 
   /* PREMIUM SECTION BACKGROUND GRADIENT */
   .bg-premium-gradient {
-    background: linear-gradient(135deg, #F7F9FC 0%, #FFFFFF 50%, #F7F9FC 100%);
+    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--card)) 50%, hsl(var(--background)) 100%);
   }
 
   /* ELEGANT GRADIENT DIVIDER */
@@ -261,19 +307,19 @@
     background: linear-gradient(
       90deg,
       transparent 0%,
-      rgba(21, 77, 133, 0.08) 20%,
-      rgba(21, 77, 133, 0.15) 50%,
-      rgba(21, 77, 133, 0.08) 80%,
+      rgba(77, 124, 15, 0.08) 20%,
+      rgba(77, 124, 15, 0.15) 50%,
+      rgba(77, 124, 15, 0.08) 80%,
       transparent 100%
     );
     width: 100%;
     /* No layout recalculation — height is fixed */
     contain: strict;
   }
-
-  /* GOLD ACCENTS */
-  .gold-accent { color: #F28C28; }
-  .brown-accent { color: #154D85; }
+ 
+  /* GREEN ACCENTS */
+  .gold-accent { color: #4D7C0F; }
+  .brown-accent { color: #6B9E18; }
 
   /* GPU-COMPOSITED LAYER HINT */
   .will-change-gpu {

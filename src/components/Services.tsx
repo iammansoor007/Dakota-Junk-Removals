@@ -83,11 +83,11 @@ const ServiceCard = memo(({
       onHoverEnd={() => setHovered(false)}
       className={`group relative rounded-2xl overflow-hidden flex flex-col cursor-pointer transform-gpu will-change-transform transition-all duration-500 hover:-translate-y-2 ${orphan ? "md:col-start-2" : ""}`}
       style={{ background: "#FFFFFF", border: "1px solid #E2E8F0", boxShadow: "0 4px 24px rgba(0,0,0,0.03)" }}
-      onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#F28C2840"}
+      onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#9AD12240"}
       onMouseLeave={(e) => (e.currentTarget as HTMLElement).style.borderColor = "#E2E8F0"}
     >
       {/* Orange left accent bar */}
-      <div className="absolute left-0 top-0 bottom-0 w-1 scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top z-10" style={{ background: "#F28C28" }} />
+      <div className="absolute left-0 top-0 bottom-0 w-1 scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top z-10" style={{ background: "#4D7C0F" }} />
 
       {/* Image */}
       <div className="relative h-48 overflow-hidden shrink-0 bg-gradient-to-br from-[#111111]/5 to-[#111111]/10">
@@ -103,7 +103,7 @@ const ServiceCard = memo(({
           </div>
         )}
         <div className="absolute top-4 left-4">
-          <span className="text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full shadow-lg" style={{ background: "#F28C28", color: "#FFF" }}>
+          <span className="text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full shadow-lg" style={{ background: "#4D7C0F", color: "#FFFFFF" }}>
             {service.tag}
           </span>
         </div>
@@ -120,7 +120,7 @@ const ServiceCard = memo(({
           <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300 group-hover:scale-110" style={{ background: "#11111105", border: "1px solid #11111115" }}>
             <Icon className="w-5 h-5" style={{ color: "#111111" }} />
           </div>
-          <h3 className="text-lg font-black transition-colors duration-300 leading-tight text-[#1F2937] group-hover:text-[#F28C28]">
+          <h3 className="text-lg font-black transition-colors duration-300 leading-tight text-[#1F2937] group-hover:text-[#4D7C0F]">
             {service.title}
           </h3>
         </div>
@@ -132,13 +132,13 @@ const ServiceCard = memo(({
         <div className="grid grid-cols-2 gap-2 mb-5 flex-1">
           {service.features?.slice(0, 4).map((f: string, i: number) => (
             <div key={i} className="flex items-center gap-1.5 text-xs" style={{ color: "#1F293799" }}>
-              <CheckCircle className="w-3 h-3 shrink-0" style={{ color: "#F28C28" }} />
+              <CheckCircle className="w-3 h-3 shrink-0" style={{ color: "#4D7C0F" }} />
               <span className="truncate">{f}</span>
             </div>
           ))}
         </div>
 
-        <div className="mt-auto flex items-center gap-2 text-sm font-black uppercase tracking-widest transition-colors duration-300" style={{ color: "#F28C28" }}>
+        <div className="mt-auto flex items-center gap-2 text-sm font-black uppercase tracking-widest transition-colors duration-300" style={{ color: "#4D7C0F" }}>
           <span>Get Free Estimate</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300 shrink-0" />
         </div>
@@ -172,16 +172,16 @@ const Services = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.55 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-5" style={{ background: "#F28C2810", border: "1px solid #F28C2830" }}>
-                <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#F28C28" }} />
-                <span className="text-[11px] font-black uppercase tracking-[0.2em]" style={{ color: "#F28C28" }}>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-5" style={{ background: "#4D7C0F10", border: "1px solid #4D7C0F30" }}>
+                <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#4D7C0F" }} />
+                <span className="text-[11px] font-black uppercase tracking-[0.2em]" style={{ color: "#4D7C0F" }}>
                   {badge}
                 </span>
               </div>
 
               <h2 className="text-4xl md:text-5xl xl:text-[3.25rem] font-black leading-[1.1] tracking-tight" style={{ color: "#1F2937", fontFamily: "'Outfit', sans-serif" }}>
                 {headline.prefix}{" "}
-                <span style={{ color: "#F28C28" }}>{headline.highlight}</span>{" "}
+                <span style={{ color: "#4D7C0F" }}>{headline.highlight}</span>{" "}
                 <span style={{ color: "#1F2937" }}>{headline.suffix}</span>
               </h2>
             </motion.div>
@@ -205,7 +205,7 @@ const Services = () => {
                     className="relative rounded-xl p-4 overflow-hidden transition-all duration-300 shadow-md"
                     style={{ background: "#FFFFFF", border: "1px solid #E2E8F0" }}
                   >
-                    <div className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl" style={{ background: "linear-gradient(90deg, #F28C28, #111111)" }} />
+                    <div className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl" style={{ background: "linear-gradient(90deg, #4D7C0F, #111111)" }} />
                     <div className="text-2xl md:text-3xl font-black leading-none mb-1 pt-1" style={{ color: "#111111" }}>
                       <AnimatedNumber value={stat.value} suffix={stat.suffix} />
                     </div>
@@ -219,7 +219,7 @@ const Services = () => {
           </div>
 
           {/* Separator line */}
-          <div className="mt-12 h-px" style={{ background: "linear-gradient(to right, #F28C2844, #E2E8F0, transparent)" }} />
+          <div className="mt-12 h-px" style={{ background: "linear-gradient(to right, #4D7C0F44, #E2E8F0, transparent)" }} />
         </div>
 
         {/* ══ SERVICES GRID ══════════════════════════════════════ */}
@@ -261,8 +261,8 @@ const Services = () => {
               {/* Left text */}
               <div className="text-center lg:text-left max-w-xl">
                 <div className="inline-flex items-center gap-2.5 mb-6 rounded-full px-4 py-2" style={{ border: "1px solid rgba(255,255,255,0.15)", background: "rgba(255,255,255,0.05)" }}>
-                  <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#F28C28" }} />
-                  <span className="text-[10px] font-black uppercase tracking-[0.25em]" style={{ color: "#F28C28" }}>
+                  <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#4D7C0F" }} />
+                  <span className="text-[10px] font-black uppercase tracking-[0.25em]" style={{ color: "#4D7C0F" }}>
                     Free Consultation Available
                   </span>
                 </div>
@@ -280,7 +280,7 @@ const Services = () => {
                   {["Licensed & Insured", "Locally Owned", "Free Estimates"].map((t) => (
                     <div key={t} className="flex items-center gap-2">
                       <div className="w-4 h-4 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)" }}>
-                        <CheckCircle className="w-2.5 h-2.5" style={{ color: "#F28C28" }} />
+                        <CheckCircle className="w-2.5 h-2.5" style={{ color: "#4D7C0F" }} />
                       </div>
                       <span className="text-xs font-semibold" style={{ color: "#E2E8F0" }}>{t}</span>
                     </div>
@@ -297,7 +297,7 @@ const Services = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-bold transition-all duration-300"
-                  style={{ background: "#F28C28", color: "#FFF", boxShadow: "0 12px 40px rgba(242,140,40,0.3)" }}
+                  style={{ background: "#4D7C0F", color: "#FFFFFF", boxShadow: "0 12px 40px rgba(77, 124, 15, 0.3)" }}
                 >
                   {cta.buttonText}
                   <ArrowRight className="w-5 h-5" />
@@ -305,7 +305,7 @@ const Services = () => {
 
                 {/* Secondary Button */}
                 <motion.a
-                  href="tel:+1234567890"
+                  href="tel:+16056514228"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-bold transition-all duration-300"

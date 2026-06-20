@@ -39,7 +39,7 @@ const QuickQuote = () => {
         setIsSubmitting(true);
 
         const emailContent = `
-🏠 NEW QUICK QUOTE REQUEST - Shoals Junk Pros
+🏠 NEW QUICK QUOTE REQUEST - Dakota Junk Removals
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -63,7 +63,7 @@ Locally Owned & Operated
 
         try {
             try {
-                const response = await fetch('https://formsubmit.co/ajax/info@shoalsjunkpros.com', {
+                const response = await fetch('https://formsubmit.co/ajax/info@dakotajunkremovals.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -89,13 +89,13 @@ Locally Owned & Operated
                 console.log('FormSubmit failed, using mailto fallback');
             }
 
-            const mailtoLink = `mailto:info@shoalsjunkpros.com?subject=🏠 Quick Quote - ${formData.name}&body=${encodeURIComponent(emailContent)}`;
+            const mailtoLink = `mailto:info@dakotajunkremovals.com?subject=🏠 Quick Quote - ${formData.name}&body=${encodeURIComponent(emailContent)}`;
             window.location.href = mailtoLink;
             showSuccess();
 
         } catch (error) {
             console.error('Submission error:', error);
-            alert('Please email us directly at info@shoalsjunkpros.com');
+            alert('Please email us directly at info@dakotajunkremovals.com');
         } finally {
             setIsSubmitting(false);
         }

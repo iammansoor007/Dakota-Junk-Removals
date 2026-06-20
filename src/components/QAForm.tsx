@@ -737,7 +737,7 @@ const GetQuote = () => {
       .join(", ");
 
     const emailContent = `
-🏠 Shoals Junk Pros Quote Request
+🏠 Dakota Junk Removals Quote Request
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -764,7 +764,7 @@ Locally Owned & Operated
     try {
       try {
         const response = await fetch(
-          "https://formsubmit.co/ajax/info@shoalsjunkpros.com",
+          "https://formsubmit.co/ajax/info@dakotajunkremovals.com",
           {
             method: "POST",
             headers: {
@@ -772,7 +772,7 @@ Locally Owned & Operated
               Accept: "application/json",
             },
             body: JSON.stringify({
-              _subject: `🏠 Shoals Junk Pros Quote Request - ${formData.name}`,
+              _subject: `🏠 Dakota Junk Removals Quote Request - ${formData.name}`,
               name: formData.name,
               email: formData.email,
               phone: formData.phone,
@@ -811,7 +811,7 @@ Locally Owned & Operated
         console.log("FormSubmit failed, using mailto fallback");
       }
 
-      window.location.href = `mailto:${email}?subject=🖌️ Shoals Junk Pros Quote Request - ${formData.name}&body=${encodeURIComponent(emailContent)}`;
+      window.location.href = `mailto:${email}?subject=🖌️ Dakota Junk Removals Quote Request - ${formData.name}&body=${encodeURIComponent(emailContent)}`;
       setShowSuccess(true);
       setFormStep(1);
       setSelectedServices([]);

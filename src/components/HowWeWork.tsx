@@ -10,7 +10,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import completeData from "../src/data/completeData.json";
-import vectorimage2 from '../assets/theshoalsvector.webp'
+import vectorimage2 from '../assets/theshoalsvector.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -682,7 +682,7 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
                                             px-8 py-3.5 rounded-full font-bold transition-all duration-300 shadow-lg
                                             flex items-center gap-2
                                             ${button.primary
-                        ? 'bg-accent text-white hover:bg-accentDark shadow-[0_10px_40px_rgba(242,140,40,0.25)]'
+                        ? 'bg-accent text-white '
                         : 'bg-transparent text-white border-2 border-white/20 hover:bg-white/5 backdrop-blur-sm'
                       }
                                         `}

@@ -22,8 +22,8 @@ import {
   ClipboardCheck,
   Clock,
 } from "lucide-react";
-import logo from "../assets/therenovlogo.webp";
-import logo2nd from "../assets/therenovlogo.webp";
+import logo from "../assets/dakotajunkl.png";
+import logo2nd from "../assets/dakotajunkl.png";
 import completeData from "../src/data/completeData.json";
 
 const iconMap = {
@@ -195,7 +195,7 @@ const Navbar = () => {
               <div className="relative -ml-8 sm:-ml-6 lg:-ml-6" style={{ marginBottom: "-2rem" }}>
                 <img
                   src={logo}
-                  alt="Shoals Junk Pros Logo"
+                  alt="Dakota Junk Removals Logo"
                   className="h-20 w-44 sm:h-24 sm:w-52 lg:h-28 lg:w-60 object-contain drop-shadow-lg"
                   style={{ filter: scrolled ? "none" : "drop-shadow(0 4px 12px rgba(0,0,0,0.4))" }}
                 />
@@ -218,17 +218,17 @@ const Navbar = () => {
                       handleLinkClick();
                     }}
                     onMouseEnter={() => setActiveMegaMenu(null)}
-                    className={`flex items-center space-x-2 px-4 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#F28C28]" : "text-white hover:text-[#F28C28]"}`}
+                    className={`flex items-center space-x-2 px-4 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#4D7C0F]" : "text-white hover:text-[#4D7C0F]"}`}
                     whileHover={{ scale: 1.05, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <div className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/80"}`}>
+                    <div className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#4D7C0F]" : "text-white/80"}`}>
                       <LinkIcon />
                     </div>
-                    <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
+                    <span className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
                       {link.label}
                     </span>
-                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#F28C28] group-hover:w-3/4 transition-all duration-500" />
+                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#4D7C0F] group-hover:w-3/4 transition-all duration-500" />
                   </motion.a>
                 );
               })}
@@ -239,18 +239,18 @@ const Navbar = () => {
                   ref={servicesButtonRef}
                   onMouseEnter={handleServicesMouseEnter}
                   onMouseLeave={handleServicesMouseLeave}
-                  className={`flex items-center space-x-2 px-5 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#F28C28]" : "text-white hover:text-[#F28C28]"}`}
+                  className={`flex items-center space-x-2 px-5 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#4D7C0F]" : "text-white hover:text-[#4D7C0F]"}`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   <span className="flex items-center space-x-2">
-                    <Wrench className={`h-4 w-4 group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/90"}`} />
-                    <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
+                    <Wrench className={`h-4 w-4 group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#4D7C0F]" : "text-white/90"}`} />
+                    <span className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
                       Services
                     </span>
                   </span>
                   <motion.span
-                    className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/90"}`}
+                    className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#4D7C0F]" : "text-white/90"}`}
                     animate={{
                       rotate: activeMegaMenu === "services" ? 180 : 0,
                     }}
@@ -258,7 +258,7 @@ const Navbar = () => {
                   >
                     <ChevronDown className="h-4 w-4 ml-1 text-current" />
                   </motion.span>
-                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#F28C28] group-hover:w-4/5 transition-all duration-500" />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#4D7C0F] group-hover:w-4/5 transition-all duration-500" />
                 </motion.button>
 
                 <AnimatePresence>
@@ -386,17 +386,17 @@ const Navbar = () => {
                         handleLinkClick();
                       }}
                       onMouseEnter={() => setActiveMegaMenu(null)}
-                      className={`flex items-center space-x-2 px-4 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#F28C28]" : "text-white hover:text-[#F28C28]"}`}
+                      className={`flex items-center space-x-2 px-4 py-2.5 transition-all duration-300 font-semibold rounded-xl relative group ${scrolled ? "text-[#1F2937] hover:text-[#4D7C0F]" : "text-white hover:text-[#4D7C0F]"}`}
                       whileHover={{ scale: 1.05, y: -2 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      <div className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#F28C28]" : "text-white/80"}`}>
+                      <div className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#4D7C0F]" : "text-white/80"}`}>
                         <LinkIcon />
                       </div>
-                      <span className={`group-hover:text-[#F28C28] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
+                      <span className={`group-hover:text-[#4D7C0F] transition-colors ${scrolled ? "text-[#1F2937]" : "text-white"}`}>
                         {link.label}
                       </span>
-                      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#F28C28] group-hover:w-3/4 transition-all duration-500" />
+                      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#4D7C0F] group-hover:w-3/4 transition-all duration-500" />
                     </motion.a>
                   );
                 })}
@@ -412,7 +412,7 @@ const Navbar = () => {
                 href="#contact"
                 onClick={handleLinkClick}
                 onMouseEnter={() => setActiveMegaMenu(null)}
-                className="group relative px-7 py-3.5 rounded-xl font-semibold transition-all duration-300 bg-accent text-white hover:bg-accentDark"
+                className="group relative px-7 py-3.5 rounded-xl font-bold transition-all duration-300 bg-[#4D7C0F] text-[#FFFFFF] hover:bg-[#5F9913] hover:scale-105"
               >
                 <span className="relative z-10 flex items-center space-x-2">
                   <Calendar className="h-4 w-4" />
@@ -485,7 +485,7 @@ const Navbar = () => {
                       <div className="relative -ml-8" style={{ marginBottom: "-1.5rem" }}>
                         <img
                           src={logo2nd}
-                          alt="Shoals Junk Pros Logo"
+                          alt="Dakota Junk Removals Logo"
                           className="h-20 w-44 sm:h-24 sm:w-52 object-contain drop-shadow-lg"
                         />
                       </div>
@@ -584,9 +584,9 @@ const Navbar = () => {
                 <div className="p-6 border-t border-primary/20 bg-[#F7F9FC] flex-shrink-0">
                   <div className="space-y-4">
                     <a
-                      href="#quote"
+                      href="#contact"
                       onClick={() => setIsMenuOpen(false)}
-                      className="block w-full py-4 bg-accent hover:bg-accentDark text-white font-bold rounded-xl text-center shadow-lg shadow-accent/20 transition-all duration-300 active:scale-[0.98]"
+                      className="block w-full py-4 bg-[#4D7C0F] hover:bg-[#5F9913] text-[#FFFFFF] font-bold rounded-xl text-center shadow-lg shadow-[#4D7C0F]/20 transition-all duration-300 active:scale-[0.98]"
                     >
                       Get Free Quote Now
                     </a>

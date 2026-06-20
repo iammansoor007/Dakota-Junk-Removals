@@ -2,55 +2,50 @@
   "navbar": {
     "services": [
       {
-        "title": "JUNK REMOVAL & CLEANOUTS",
-        "description": "Residential and commercial junk removal, cleanouts, and hauling services",
+        "title": "JUNK REMOVAL",
+        "description": "Removal of unwanted household and commercial items.",
         "icon": "Home",
         "items": [
-          "Garage Cleanouts",
-          "Shed Cleanouts",
-          "Attic Cleanouts",
-          "Basement Cleanouts",
-          "Storage Unit Cleanouts",
-          "Estate Cleanouts"
+          "Furniture Removal",
+          "Appliance Removal"
         ],
         "features": [
-          "Fast Response",
-          "Reliable Service",
-          "Thorough Cleanup"
+          "Fast Service",
+          "Free Estimates",
+          "Affordable Pricing"
         ]
       },
       {
-        "title": "LIGHT DEMOLITION & REMOVAL",
-        "description": "Safe and efficient removal of sheds, fences, decks, and small structures",
+        "title": "PROPERTY CLEANOUTS",
+        "description": "Full property cleanouts for rentals, estates, foreclosures, and garages.",
         "icon": "ClipboardCheck",
         "items": [
-          "Shed Removal",
-          "Small Structure Removal",
-          "Fence Removal",
-          "Interior Tear-Outs",
-          "Deck Removal"
+          "Rental Cleanouts",
+          "Estate Cleanouts",
+          "Foreclosure Cleanouts",
+          "Garage Cleanouts"
         ],
         "features": [
-          "Licensed & Insured",
-          "Free Estimates",
-          "Property Left Clean"
+          "Thorough Service",
+          "Same-Week Available",
+          "Locally Owned"
         ]
       },
       {
-        "title": "MOVING & CLEANUP SERVICES",
-        "description": "Local moving help, construction cleanup, and debris hauling",
+        "title": "CONSTRUCTION & YARD DEBRIS",
+        "description": "High-performance removal of construction waste and yard debris.",
         "icon": "Sun",
         "items": [
-          "Local Moving Help",
-          "Furniture Moving",
-          "Loading & Unloading",
-          "Construction Site Cleanup",
-          "Jobsite Haul-Off"
+          "Renovation Debris",
+          "Scrap Materials",
+          "Contractor Cleanup",
+          "Branches & Leaves",
+          "Landscaping Waste"
         ],
         "features": [
-          "Personalized Service",
-          "Hard Working Team",
-          "Affordable Rates"
+          "Heavy Debris Rated",
+          "Quick Pickup",
+          "Proper Disposal"
         ]
       }
     ],
@@ -71,7 +66,7 @@
         "icon": "Briefcase"
       },
       {
-        "label": "Projects",
+        "label": "Our Work",
         "href": "#portfolio",
         "icon": "FileText"
       },
@@ -83,13 +78,13 @@
     ],
     "stats": [
       {
-        "value": "Florence",
+        "value": "Brookings",
         "label": "Headquarters",
         "icon": "MapPin"
       },
       {
-        "value": "Shoals Area",
-        "label": "Local Service",
+        "value": "3+ Cities",
+        "label": "Service Area",
         "icon": "Home"
       },
       {
@@ -99,25 +94,25 @@
       },
       {
         "value": "Fast",
-        "label": "Response Time",
+        "label": "Turnaround",
         "icon": "Shield"
       }
     ],
     "cta": {
       "title": "Get Your Free Estimate Today",
-      "description": "Tell us what you need and we'll see if we can help — fast, reliable, thorough junk removal",
+      "description": "Fast, affordable junk removal serving Brookings, Sioux Falls, Watertown, and surrounding areas",
       "buttonText": "Request a Quote",
       "buttonLink": "#contact"
     }
   },
   "hero": {
-    "badge": "Your Local Junk Removal Pros",
+    "badge": "Locally Owned & Operated",
     "headlines": [
-      "Reclaim Your Space",
-      "Fast, Reliable & Thorough",
-      "Junk Removal Services"
+      "Your Junk.",
+      "Our Problem.",
+      "Fast • Fair • Done Right"
     ],
-    "description": "Helping homeowners, landlords, and contractors reclaim their space with professional junk removal, light demolition, moving assistance, and construction cleanup. Tell us what you need and we'll see if we can help.",
+    "description": "Professional junk removal and hauling services for homeowners, renters, landlords, contractors, and businesses. Clearing clutter, one load at a time.",
     "buttons": [
       {
         "text": "Get a Free Estimate",
@@ -134,24 +129,24 @@
     ],
     "stats": [
       {
-        "value": "Florence, AL",
+        "value": "Brookings, SD",
         "label": "Headquarters",
         "icon": "FiMapPin"
       },
       {
-        "value": "Muscle Shoals",
+        "value": "Sioux Falls",
         "label": "Service Area",
         "icon": "RiBuildingLine"
       },
       {
         "value": "Free",
         "label": "Estimates",
-        "icon": "FiMessageSquare"
+        "icon": "FiShield"
       },
       {
-        "value": "Quick",
-        "label": "Response",
-        "icon": "FiShield"
+        "value": "Watertown",
+        "label": "Also Serving",
+        "icon": "FiMessageSquare"
       }
     ]
   },
@@ -159,14 +154,14 @@
     "badge": "Get to Know Us",
     "headline": {
       "prefix": "Welcome to",
-      "highlight": "Shoals Junk Pros",
+      "highlight": "Dakota Junk Removals",
       "suffix": ""
     },
-    "description": "We're a local, family-owned junk removal and property cleanout company based in <span class=\"font-semibold text-primary\">Florence, Alabama</span>. We help homeowners, landlords, real estate agents, and contractors remove unwanted items, debris, and eyesores — so you can reclaim your space without breaking your back.",
+    "description": "We're a locally owned and operated junk removal company based in <span class=\"font-semibold text-primary\">Brookings, South Dakota</span>. We help homeowners, renters, landlords, contractors, and businesses remove unwanted items quickly and affordably — so you can reclaim your space without the stress.",
     "image": {
-      "src": "ShoalsJunkProsCrew",
-      "alt": "Shoals Junk Pros professional cleanup crew",
-      "badge": "Your Local Junk Removal Pros"
+      "src": "DakotaJunkRemovalCrew",
+      "alt": "Dakota Junk Removals professional crew",
+      "badge": "Junk Gone. Stress Gone."
     },
     "stats": [
       {
@@ -199,36 +194,37 @@
     ],
     "trustBadges": {
       "founded": "",
-      "headquarters": "Florence, Alabama"
+      "headquarters": "Brookings, South Dakota"
     }
   },
   "aboutStory": {
     "badge": "Our Story",
     "headline": {
-      "prefix": "Meet the",
-      "highlight": "Founder",
-      "suffix": "— Trenton Hips"
+      "prefix": "Clearing Clutter,",
+      "highlight": "One Load",
+      "suffix": "at a Time"
     },
     "description": [
-      "Shoals Junk Pros was founded by Trenton Hips, a hard-working local who saw a need for honest, reliable junk removal in the Shoals area. Trenton started the business because he noticed so many homeowners and landlords were overwhelmed by clutter — garages packed to the ceiling, attics full of stuff nobody wanted, old sheds falling apart in backyards.",
-      "His philosophy is simple: tell him what you need and he'll see if he can help. No job is too small, no mess too big. From a single piece of furniture to a full estate cleanout, Trenton and his team handle it with respect, hard work, and a commitment to leaving your property cleaner than they found it.",
-      "Today, Shoals Junk Pros serves Florence, Muscle Shoals, Sheffield, Tuscumbia, and the surrounding areas — helping the community reclaim their space one load at a time."
+      "Dakota Junk Removals was founded with a simple mission: make junk removal fast, affordable, and completely stress-free. We saw too many homeowners, landlords, and businesses throughout Brookings, Sioux Falls, and Watertown struggling with clutter they couldn't get rid of on their own. Garages packed to the ceiling with years of accumulated stuff. Rental properties full of abandoned furniture after tenants moved out. Yards buried in branches, leaves, and old landscaping debris. Construction sites littered with scrap materials and renovation waste. People wanted their space back — but they didn't have the time, the truck, or the manpower to make it happen.",
+      "That's exactly where we come in. We show up on time with the right equipment, give you a fair upfront price with zero hidden fees, and handle every bit of the heavy lifting ourselves. No complicated contracts. No surprises on the bill. No expecting you to drag everything to the curb before we arrive. Just point at what you want gone, and we'll make it disappear — quickly, safely, and affordably.",
+      "What started as a single truck and a commitment to honest work has grown into a trusted local junk removal company serving the entire region. We've helped hundreds of homeowners reclaim their garages and basements. We've partnered with landlords and property managers to turn over rentals fast. We've worked alongside contractors to keep job sites clean and safe. And we've done it all with the same straightforward approach: fair prices, friendly service, and a genuine commitment to our community.",
+      "Today, Dakota Junk Removals proudly serves Brookings, Sioux Falls, Watertown, and all surrounding communities. Whether you need a single appliance hauled away or a complete estate cleanout, we're the local team you can count on. Because at the end of the day, our job is simple: junk gone, stress gone — so you can enjoy your space again."
     ],
     "image": {
-      "src": "TrentonHips",
-      "alt": "Trenton Hips - Owner, Shoals Junk Pros",
-      "badge": "Owner & Founder"
+      "src": "DakotaJunkRemovalFounder",
+      "alt": "Dakota Junk Removals Owner and team",
+      "badge": "Locally Owned & Operated"
     },
     "stats": [
       {
-        "value": "Florence",
-        "suffix": ", AL",
+        "value": "Brookings",
+        "suffix": ", SD",
         "label": "Headquarters"
       },
       {
-        "value": "Shoals Area",
-        "suffix": "",
-        "label": "Service Region"
+        "value": "3 Cities",
+        "suffix": "+",
+        "label": "Service Area"
       },
       {
         "value": "Free",
@@ -240,13 +236,13 @@
   "services": {
     "badge": "Our Services",
     "headline": {
-      "prefix": "Tell Us What",
-      "highlight": "You Need",
-      "suffix": " — We'll See If We Can Help"
+      "prefix": "Professional Junk Removal",
+      "highlight": "Made Easy",
+      "suffix": ""
     },
     "description": [
-      "Shoals Junk Pros offers a full range of junk removal, cleanout, light demolition, and hauling services. Whether you're a homeowner with a cluttered garage, a landlord needing a tenant cleanout, or a contractor with construction debris, we've got you covered.",
-      "We do the heavy lifting so you don't have to. Just point us at the pile and we'll make it disappear."
+      "Dakota Junk Removals offers fast, affordable hauling services for residential and commercial customers.",
+      "No job is too small. No mess is too big. Just tell us what you need gone and we'll take care of the rest."
     ],
     "stats": [
       {
@@ -255,9 +251,9 @@
         "label": "Core Services"
       },
       {
-        "value": 15,
+        "value": 6,
         "suffix": "+",
-        "label": "Specialty Offerings"
+        "label": "Specialized Solutions"
       },
       {
         "value": "Free",
@@ -268,138 +264,121 @@
     "services": [
       {
         "number": "01",
-        "title": "Junk Removal & Cleanouts",
-        "description": "From garages and attics to basements and storage units — we remove the clutter you don't even know where to begin with.",
+        "title": "Junk Removal",
+        "description": "Removal of unwanted household and commercial items including furniture, appliances, and general clutter.",
         "icon": "Home",
-        "tag": "Residential",
+        "tag": "Popular",
         "features": [
-          "Garage Cleanouts",
-          "Attic Cleanouts",
-          "Basement Cleanouts",
-          "Storage Unit Cleanouts"
+          "Furniture Removal",
+          "Appliance Removal"
         ]
       },
       {
         "number": "02",
-        "title": "Estate & Property Cleanouts",
-        "description": "Compassionate and thorough cleanout services for estates, evictions, foreclosure properties, and pre-sale preparation.",
+        "title": "Property Cleanouts",
+        "description": "Full property cleanouts for rentals, estates, foreclosures, and garages. We do all the heavy lifting.",
         "icon": "Building2",
         "tag": "Property",
         "features": [
+          "Rental Cleanouts",
           "Estate Cleanouts",
-          "Eviction Cleanouts",
           "Foreclosure Cleanouts",
-          "Realtor Prep"
+          "Garage Cleanouts"
         ]
       },
       {
         "number": "03",
-        "title": "Light Demolition",
-        "description": "Safe removal of old sheds, fences, decks, and small structures that have become eyesores on your property.",
+        "title": "Construction Debris Removal",
+        "description": "Hauling renovation debris, scrap materials, and contractor cleanup with prompt, reliable service.",
         "icon": "Hammer",
-        "tag": "Demo",
+        "tag": "Contractor",
         "features": [
-          "Shed Removal",
-          "Fence Removal",
-          "Deck Removal",
-          "Small Structure Removal"
+          "Renovation Debris",
+          "Scrap Materials",
+          "Contractor Cleanup"
         ]
       },
       {
         "number": "04",
-        "title": "Interior Tear-Outs",
-        "description": "Interior demolition and tear-out services for remodeling projects — we remove the old so you can build the new.",
+        "title": "Furniture Removal",
+        "description": "Sofas, chairs, tables, mattresses, bedroom sets — we take it all, no heavy lifting on your part.",
         "icon": "Shield",
-        "tag": "Remodel Prep",
+        "tag": "Residential",
         "features": [
-          "Kitchen Tear-Outs",
-          "Bathroom Tear-Outs",
-          "Flooring Removal",
-          "Cabinetry Removal"
+          "Sofas & Chairs",
+          "Tables & Mattresses"
         ]
       },
       {
         "number": "05",
-        "title": "Moving Services",
-        "description": "Local moving help for homeowners and renters — furniture moving, loading, unloading, and heavy lifting assistance.",
+        "title": "Appliance Removal",
+        "description": "Refrigerators, washers, dryers, stoves, freezers — old and unwanted appliances hauled away quickly.",
         "icon": "Droplets",
-        "tag": "Moving",
+        "tag": "Residential",
         "features": [
-          "Local Moving Help",
-          "Furniture Moving",
-          "Loading Assistance",
-          "Unloading Assistance"
+          "Refrigerators",
+          "Washers & Dryers"
         ]
       },
       {
         "number": "06",
-        "title": "Construction Site Cleanup",
-        "description": "Post-construction debris removal, scrap material haul-off, and jobsite cleanup for contractors and builders.",
+        "title": "Yard Debris Cleanup",
+        "description": "Branches, leaves, landscaping waste, and outdoor clutter removed so you can enjoy your yard again.",
         "icon": "Wrench",
-        "tag": "Contractor",
+        "tag": "Outdoor",
         "features": [
-          "Construction Debris",
-          "Scrap Material Removal",
-          "Jobsite Haul-Off",
-          "Post-Construction Cleanup"
+          "Branches & Leaves",
+          "Landscaping Waste"
         ]
       },
       {
         "number": "07",
-        "title": "General Hauling Services",
-        "description": "Custom hauling for anything you need moved, removed, or disposed of — just ask and we'll see if we can help.",
+        "title": "Hauling Services",
+        "description": "Fast pickup and disposal of unwanted materials, large and small, from any location on your property.",
         "icon": "Tool",
-        "tag": "Custom",
+        "tag": "Essential",
         "features": [
-          "Yard Waste Removal",
-          "Furniture Haul-Away",
-          "Appliance Removal",
-          "Miscellaneous Hauling"
+          "Fast Pickup",
+          "Proper Disposal"
         ]
       },
       {
         "number": "08",
         "title": "Garage Cleanouts",
-        "description": "Transform your garage from a cluttered mess into usable space — we haul away everything you don't need.",
+        "description": "Reclaim your garage. We clear out boxes, old equipment, and years of accumulated clutter.",
         "icon": "Layers",
-        "tag": "Popular",
+        "tag": "Cleanout",
         "features": [
-          "Full Garage Cleanouts",
-          "Partial Cleanouts",
-          "Organizing Help",
-          "Same-Day Available"
+          "Full Clearout",
+          "Heavy Lifting Included"
         ]
       },
       {
         "number": "09",
-        "title": "Shed & Structure Removal",
-        "description": "Old shed falling apart? We'll tear it down and haul away every piece, leaving your yard clean and usable.",
+        "title": "Estate Cleanouts",
+        "description": "Respectful, thorough estate cleanouts when you need it most. Prompt, professional, and discreet.",
         "icon": "Palette",
-        "tag": "Outdoor",
+        "tag": "Sensitive",
         "features": [
-          "Complete Shed Demo",
-          "Debris Hauling",
-          "Site Cleanup",
-          "Permit Assistance"
+          "Respectful Service",
+          "Prompt Turnaround"
         ]
       },
       {
         "number": "10",
-        "title": "Landlord Cleanouts",
-        "description": "Fast, thorough cleanouts for property managers and landlords — perfect for tenant turnovers and evictions.",
+        "title": "Commercial Junk Removal",
+        "description": "Old office furniture, retail fixtures, and general business clutter removed with minimal disruption.",
         "icon": "Grid",
-        "tag": "Property Mgmt",
+        "tag": "Commercial",
         "features": [
-          "Tenant Cleanouts",
-          "Eviction Cleanouts",
-          "Quick Turnaround",
-          "Bulk Item Removal"
+          "Offices & Retail",
+          "Flexible Scheduling"
         ]
       }
     ],
     "cta": {
       "title": "Not Sure If We Can Help?",
-      "description": "Just tell us what you need and we'll be honest with you. Call or text us for your free, no-obligation estimate today.",
+      "description": "Just tell us what you need removed and we'll give you a free, no-obligation estimate.",
       "buttonText": "Contact Us",
       "buttonLink": "#contact"
     }
@@ -407,51 +386,51 @@
   "whyChooseUs": {
     "section": {
       "badge": "WHY CHOOSE US",
-      "headline": "Fast, Reliable, <span class=\"text-primary\">Thorough</span>",
-      "description": "When you're dealing with clutter, old sheds, or a property full of stuff you don't want, you need a team that shows up on time, works hard, and leaves your place clean."
+      "headline": "Fast. Reliable. <span class=\"text-primary\">Affordable.</span>",
+      "description": "When you need junk removed, you want a team that shows up on time, gives you a fair price, and gets the job done right."
     },
     "features": [
       {
         "icon": "Award",
-        "title": "Fast Response",
-        "description": "We schedule quickly and show up when we say we will. No waiting around for days or weeks."
+        "title": "Locally Owned & Operated",
+        "description": "Community-focused business serving Brookings, Sioux Falls, and Watertown with pride and dedication."
       },
       {
         "icon": "MessageSquare",
-        "title": "Tell Us What You Need",
-        "description": "We don't do cookie-cutter service. Tell us your situation and we'll see if we can help — custom solutions for every customer."
+        "title": "Free Estimates",
+        "description": "No-obligation quotes with transparent pricing and absolutely zero hidden fees — ever."
       },
       {
         "icon": "Globe",
-        "title": "Local & Family-Owned",
-        "description": "We're your neighbors in the Shoals area. We care about our community and treat every property like it's our own."
+        "title": "Residential & Commercial",
+        "description": "Homeowners, landlords, contractors, and businesses trust us for fast, reliable junk removal."
       },
       {
         "icon": "Clock",
-        "title": "You Don't Lift a Finger",
-        "description": "Don't want to climb through your attic or haul heavy furniture? No problem. We do the heavy lifting so you don't have to."
+        "title": "Fast Response Times",
+        "description": "Quick scheduling and prompt removal. Same-day and next-day service often available."
       },
       {
         "icon": "Shield",
-        "title": "Free Estimates, Always",
-        "description": "No obligation, no pressure, no hidden fees. Just an honest assessment and a fair price."
+        "title": "Affordable Pricing",
+        "description": "Competitive local rates with no hidden fees. You pay exactly what we quote — nothing more."
       },
       {
         "icon": "Check",
-        "title": "Thorough Cleanup",
-        "description": "We don't just haul stuff away — we sweep, clean, and leave your property looking better than we found it."
+        "title": "Professional & Insured",
+        "description": "Dependable, respectful, and fully insured team that treats your property like our own."
       }
     ],
     "stats": [
       {
-        "value": "Florence",
+        "value": "Brookings",
         "suffix": "",
         "label": "Based In"
       },
       {
-        "value": "4",
+        "value": "3",
         "suffix": " Cities",
-        "label": "Primary Service Area"
+        "label": "Service Area"
       },
       {
         "value": "Free",
@@ -459,19 +438,19 @@
         "label": "Estimates"
       },
       {
-        "value": "Quick",
+        "value": "Fast",
         "suffix": "",
-        "label": "Response"
+        "label": "Turnaround"
       }
     ],
     "cta": {
       "badge": "GET STARTED",
-      "title": "Ready to <span class=\"\">Reclaim Your Space?</span>",
-      "description": "Call or text (256) 394-6185 or request your free estimate online. Tell us what you need and we'll see if we can help.",
+      "title": "Need Junk Removed <span class=\"\">Today?</span>",
+      "description": "Call Dakota Junk Removals for a free estimate. (605) 651-4228",
       "trustBadges": [
-        "Local",
-        "Family-Owned",
-        "Free Estimates"
+        "Locally Owned",
+        "Free Estimates",
+        "Fast Service"
       ],
       "buttons": [
         {
@@ -490,63 +469,63 @@
   "portfolio": {
     "section": {
       "badge": "Our Work",
-      "headline": "Before & <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70\">After</span>"
+      "headline": "Junk Gone. <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70\">Stress Gone.</span>"
     },
     "projects": [
       {
         "number": "01",
-        "title": "Florence Garage Cleanout",
+        "title": "Brookings Garage Cleanout",
         "category": "Residential",
         "image": "portfolio1",
-        "location": "Florence, AL",
+        "location": "Brookings, SD",
         "year": "2025",
         "accent": "from-primary to-primary/80",
         "scope": "Full Garage Cleanout",
-        "desc": "From packed to the ceiling to completely empty and swept — a family garage reclaimed."
+        "desc": "Years of accumulated furniture, boxes, and clutter cleared in hours."
       },
       {
         "number": "02",
-        "title": "Old Shed Removal",
-        "category": "Demolition",
+        "title": "Sioux Falls Rental Cleanout",
+        "category": "Property",
         "image": "portfolio2",
-        "location": "Muscle Shoals, AL",
+        "location": "Sioux Falls, SD",
         "year": "2025",
         "accent": "from-primary to-primary/70",
-        "scope": "Shed Demo & Haul-Off",
-        "desc": "Falling-down shed removed, debris hauled away, yard left clean and usable."
+        "scope": "Full Property Cleanout",
+        "desc": "Abandoned furniture and tenant belongings removed for fast turnover."
       },
       {
         "number": "03",
-        "title": "Estate Cleanout",
-        "category": "Property",
+        "title": "Watertown Construction Debris",
+        "category": "Contractor",
         "image": "portfolio3",
-        "location": "Tuscumbia, AL",
+        "location": "Watertown, SD",
         "year": "2024",
         "accent": "from-primary/90 to-primary/60",
-        "scope": "Full Estate Cleanout",
-        "desc": "Compassionate cleanout of a family home — everything removed, property left ready for sale."
+        "scope": "Debris Haul-Off",
+        "desc": "Renovation waste, drywall, lumber, and scrap materials cleared."
       },
       {
         "number": "04",
-        "title": "Construction Debris Haul-Off",
-        "category": "Contractor",
+        "title": "Appliance Removal",
+        "category": "Residential",
         "image": "portfolio4",
-        "location": "Sheffield, AL",
+        "location": "Brookings, SD",
         "year": "2025",
         "accent": "from-primary to-primary/80",
-        "scope": "Jobsite Cleanup",
-        "desc": "Post-remodel debris removal and jobsite cleanup for a local contractor."
+        "scope": "Large Appliance Hauling",
+        "desc": "Old refrigerator, washer, and dryer removed safely and quickly."
       },
       {
         "number": "05",
-        "title": "Attic Cleanout",
+        "title": "Yard Debris Cleanup",
         "category": "Residential",
         "image": "portfolio5",
-        "location": "Florence, AL",
+        "location": "Sioux Falls, SD",
         "year": "2024",
         "accent": "from-primary/80 to-primary/60",
-        "scope": "Attic & Storage",
-        "desc": "Decades of stored items removed from an attic — homeowner didn't have to lift a finger."
+        "scope": "Landscaping Waste Removal",
+        "desc": "Branches, leaves, and outdoor clutter cleared for a clean yard."
       }
     ],
     "button": {
@@ -558,81 +537,81 @@
     "section": {
       "badge": "Client Testimonials",
       "headline": "What Our Customers Say",
-      "description": "Hear from homeowners, landlords, and contractors who called Shoals Junk Pros to reclaim their space.",
-      "featured": "Trusted Junk Removal Pros in the Shoals Area"
+      "description": "Hear from homeowners, landlords, and contractors who chose Dakota Junk Removals.",
+      "featured": "Trusted Junk Removal in Brookings, Sioux Falls & Watertown"
     },
     "testimonials": [
       {
         "id": 1,
-        "name": "Linda M.",
+        "name": "Sarah T.",
         "position": "Homeowner",
-        "company": "Florence",
-        "avatar": "LM",
-        "text": "My garage was so full I couldn't park my car. Trenton and his team came out, gave me a fair price, and had it cleaned out in a few hours. I can finally use my garage again!"
+        "company": "Brookings",
+        "avatar": "ST",
+        "text": "Called Dakota Junk Removals for a garage full of stuff. Free estimate, showed up on time, had it all gone in a few hours. Can't recommend them enough."
       },
       {
         "id": 2,
-        "name": "David R.",
+        "name": "Mike R.",
         "position": "Property Manager",
-        "company": "Muscle Shoals",
-        "avatar": "DR",
-        "text": "I manage several rental properties and Shoals Junk Pros is my go-to for tenant cleanouts. Fast, reliable, and thorough every time."
+        "company": "Sioux Falls",
+        "avatar": "MR",
+        "text": "I use Dakota Junk Removals for all my rental cleanouts. Fast, affordable, and reliable every single time. They make my job so much easier."
       },
       {
         "id": 3,
-        "name": "Jennifer K.",
-        "position": "Realtor",
-        "company": "Sheffield",
+        "name": "Jason K.",
+        "position": "Contractor",
+        "company": "Watertown",
         "avatar": "JK",
-        "text": "Had a foreclosure property that needed a full cleanout before listing. Shoals Junk Pros handled everything professionally and quickly. Highly recommend."
+        "text": "They hauled away a full truckload of renovation debris. Showed up when they said they would, fair price, no issues. Will use again."
       },
       {
         "id": 4,
-        "name": "Mike T.",
-        "position": "Contractor",
-        "company": "Tuscumbia",
-        "avatar": "MT",
-        "text": "I use them for construction debris haul-off on my renovation projects. They show up on time, work hard, and clean up after themselves. Great service."
+        "name": "Linda P.",
+        "position": "Homeowner",
+        "company": "Brookings",
+        "avatar": "LP",
+        "text": "Had an old shed and broken refrigerator sitting around for years. One call to Dakota Junk Removals and it was all gone the same week."
       },
       {
         "id": 5,
-        "name": "Trenton Hips",
-        "position": "Owner & Founder",
-        "company": "Shoals Junk Pros",
-        "avatar": "TH",
-        "text": "I started this business because I believe in helping people. If you're overwhelmed by clutter, don't know where to begin, or just don't want to do the heavy lifting yourself — give me a call. Tell me what you need and I'll see if I can help. That's a promise."
+        "name": "Dakota Junk Removals Team",
+        "position": "Locally Owned & Operated",
+        "company": "Dakota Junk Removals",
+        "avatar": "DJ",
+        "text": "Junk removal should be fast, affordable, and completely stress-free. That's exactly what we deliver to every customer, every time. No hidden fees, no excuses — just junk gone and stress gone."
       }
     ],
     "videos": [
       {
         "id": "v1",
         "videoId": "dQw4w9WgXcQ",
-        "title": "Garage Cleanout Before & After",
-        "name": "Linda M."
+        "title": "Garage Cleanout",
+        "name": "Sarah T."
       },
       {
         "id": "v2",
         "videoId": "dQw4w9WgXcQ",
-        "title": "Shed Removal Project",
-        "name": "Shoals Junk Pros"
+        "title": "Rental Property Cleanout",
+        "name": "Mike R."
       },
       {
         "id": "v3",
         "videoId": "dQw4w9WgXcQ",
-        "title": "Estate Cleanout Walkthrough",
-        "name": "David R."
+        "title": "Construction Debris Haul-Off",
+        "name": "Jason K."
       },
       {
         "id": "v4",
         "videoId": "dQw4w9WgXcQ",
-        "title": "Construction Debris Haul-Off",
-        "name": "Mike T."
+        "title": "Appliance Removal",
+        "name": "Linda P."
       }
     ],
     "stats": {
       "reviewPlatform": "Google Reviews",
       "satisfactionFocus": "100% Customer Focus",
-      "totalVideos": 18
+      "totalVideos": 12
     }
   },
   "faq": {
@@ -658,14 +637,9 @@
         "icon": "Hammer"
       },
       {
-        "id": "demolition",
-        "label": "Demolition",
+        "id": "debris",
+        "label": "Debris",
         "icon": "Shield"
-      },
-      {
-        "id": "moving",
-        "label": "Moving",
-        "icon": "Droplets"
       }
     ],
     "items": [
@@ -673,7 +647,7 @@
         "id": 1,
         "category": "junk-removal",
         "question": "What items do you haul away?",
-        "answer": "We haul just about anything — furniture, appliances, electronics, yard waste, construction debris, old sheds, fencing, mattresses, toys, garage clutter, attic junk, basement storage, and more. Just tell us what you need and we'll see if we can help.",
+        "answer": "We haul furniture, appliances, yard debris, construction waste, and general household or commercial clutter.",
         "metadata": [
           {
             "label": "Furniture",
@@ -682,10 +656,6 @@
           {
             "label": "Appliances",
             "value": "Yes"
-          },
-          {
-            "label": "Construction Debris",
-            "value": "Yes"
           }
         ]
       },
@@ -693,7 +663,7 @@
         "id": 2,
         "category": "junk-removal",
         "question": "Do you offer free estimates?",
-        "answer": "Yes! All estimates are free, no-obligation, and we never have hidden fees. We'll come to your property, look at what you need removed, and give you an honest price.",
+        "answer": "Yes. Every estimate is free with absolutely no obligation. No hidden fees — ever.",
         "metadata": [
           {
             "label": "Cost",
@@ -707,113 +677,9 @@
       },
       {
         "id": 3,
-        "category": "cleanouts",
-        "question": "Do I need to sort or box anything before you arrive?",
-        "answer": "Nope! That's what we're here for. You don't even have to climb through your attic or move heavy furniture. Just show us what you want gone and we'll handle the rest.",
-        "metadata": [
-          {
-            "label": "You Lift?",
-            "value": "No"
-          },
-          {
-            "label": "We Lift?",
-            "value": "Yes"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "category": "cleanouts",
-        "question": "Do you do estate cleanouts?",
-        "answer": "Yes, we provide compassionate and thorough estate cleanouts. We understand it can be a difficult time, and we work respectfully and efficiently to clear the property.",
-        "metadata": [
-          {
-            "label": "Compassionate",
-            "value": "Yes"
-          },
-          {
-            "label": "Full Cleanout",
-            "value": "Available"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "category": "demolition",
-        "question": "What kind of demolition do you do?",
-        "answer": "We specialize in light demolition — old sheds, small structures, fences, decks, interior tear-outs for remodeling projects. We tear it down and haul it all away.",
-        "metadata": [
-          {
-            "label": "Sheds",
-            "value": "Yes"
-          },
-          {
-            "label": "Fences",
-            "value": "Yes"
-          },
-          {
-            "label": "Interior",
-            "value": "Yes"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "category": "demolition",
-        "question": "Do you handle permits for demolition?",
-        "answer": "We can help guide you on what's needed, but permit requirements vary by city. We'll let you know what's required for your specific project.",
-        "metadata": [
-          {
-            "label": "Permit Help",
-            "value": "Guidance Provided"
-          },
-          {
-            "label": "We Pull Permits",
-            "value": "Check with us"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "category": "moving",
-        "question": "Do you offer moving services?",
-        "answer": "Yes — local moving help including furniture moving, loading trucks or pods, and unloading assistance. Perfect if you just need an extra set of hands for the heavy stuff.",
-        "metadata": [
-          {
-            "label": "Loading",
-            "value": "Yes"
-          },
-          {
-            "label": "Unloading",
-            "value": "Yes"
-          },
-          {
-            "label": "Furniture Only",
-            "value": "Yes"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "category": "junk-removal",
-        "question": "What areas do you serve?",
-        "answer": "We primarily serve Florence, Muscle Shoals, Sheffield, Tuscumbia, and the surrounding Shoals area. If you're just outside our main area, give us a call — we might still be able to help.",
-        "metadata": [
-          {
-            "label": "Primary",
-            "value": "Florence, Muscle Shoals"
-          },
-          {
-            "label": "Also",
-            "value": "Sheffield, Tuscumbia"
-          }
-        ]
-      },
-      {
-        "id": 9,
         "category": "junk-removal",
         "question": "How fast can you come out?",
-        "answer": "We pride ourselves on fast response. In most cases, we can schedule you within a few days — sometimes same-day depending on our current workload.",
+        "answer": "We typically schedule within a few days. Same-day and next-day service is often available — just ask.",
         "metadata": [
           {
             "label": "Typical",
@@ -821,30 +687,122 @@
           },
           {
             "label": "Same-Day",
-            "value": "Possible"
+            "value": "Often available"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "cleanouts",
+        "question": "Do you do property cleanouts?",
+        "answer": "Yes. We handle rental cleanouts, estate cleanouts, foreclosure cleanouts, and garage cleanouts.",
+        "metadata": [
+          {
+            "label": "Rentals",
+            "value": "Yes"
+          },
+          {
+            "label": "Estates",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "debris",
+        "question": "Do you take construction debris?",
+        "answer": "Yes. Renovation debris, scrap lumber, drywall, and general contractor cleanup are all part of our services.",
+        "metadata": [
+          {
+            "label": "Renovation",
+            "value": "Yes"
+          },
+          {
+            "label": "Contractor",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "junk-removal",
+        "question": "What areas do you serve?",
+        "answer": "Brookings, Sioux Falls, Watertown, and all surrounding communities.",
+        "metadata": [
+          {
+            "label": "Primary",
+            "value": "Brookings, Sioux Falls, Watertown"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "category": "cleanouts",
+        "question": "Do I need to move anything before you arrive?",
+        "answer": "No. We do all the heavy lifting. Just point at what you want gone and we'll handle the rest.",
+        "metadata": [
+          {
+            "label": "You Lift?",
+            "value": "No"
+          },
+          {
+            "label": "We Lift?",
+            "value": "Yes — everything"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "category": "junk-removal",
+        "question": "Do you work with landlords?",
+        "answer": "Absolutely. We specialize in tenant move-out cleanouts and fast property turnovers for landlords and property managers.",
+        "metadata": [
+          {
+            "label": "Landlords",
+            "value": "Yes"
+          },
+          {
+            "label": "Fast Turnaround",
+            "value": "Priority service"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "category": "junk-removal",
+        "question": "Do you take yard waste?",
+        "answer": "Yes. Branches, leaves, grass clippings, landscaping debris, and outdoor clutter.",
+        "metadata": [
+          {
+            "label": "Yard Debris",
+            "value": "Yes"
+          },
+          {
+            "label": "Outdoor Clutter",
+            "value": "Yes"
           }
         ]
       },
       {
         "id": 10,
         "category": "cleanouts",
-        "question": "Do you work with landlords and property managers?",
-        "answer": "Absolutely. We're the preferred junk removal partner for many property managers in the Shoals area. Tenant cleanouts, eviction cleanouts, and property turnovers are our specialty.",
+        "question": "Do you do estate cleanouts?",
+        "answer": "Yes. We provide respectful, discreet, and thorough estate cleanout services when you need them most.",
         "metadata": [
           {
-            "label": "Landlord Discounts",
-            "value": "Ask about recurring"
+            "label": "Estates",
+            "value": "Yes"
           },
           {
-            "label": "Fast Turnaround",
-            "value": "Yes"
+            "label": "Approach",
+            "value": "Respectful & discreet"
           }
         ]
       }
     ],
     "knowledgeCard": {
       "title": "Still Have Questions?",
-      "description": "Not sure if we can help with your specific situation? Just tell us what you need and we'll give you an honest answer.",
+      "description": "Just give us a call — we'll give you an honest, straightforward answer.",
       "buttons": [
         {
           "text": "Call or Text Us",
@@ -863,43 +821,43 @@
     "section": {
       "badge": "GET STARTED",
       "headline": "Request Your <span class=\"font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-primary/80\">Free Estimate Today</span>",
-      "description": "Tell us what you need and we'll see if we can help. Free, no-obligation estimates — no hidden fees, just honest work."
+      "description": "Fast, affordable junk removal. Free estimates — no hidden fees, no obligation."
     },
     "services": [
       {
         "id": 1,
         "title": "Junk Removal",
-        "desc": "Any unwanted items",
+        "desc": "Furniture & appliances",
         "icon": "⌗"
       },
       {
         "id": 2,
-        "title": "Garage Cleanout",
-        "desc": "Full or partial",
+        "title": "Property Cleanouts",
+        "desc": "Rentals & garages",
         "icon": "⎔"
       },
       {
         "id": 3,
-        "title": "Shed Removal",
-        "desc": "Demo & haul-off",
+        "title": "Construction Debris",
+        "desc": "Renovation waste",
         "icon": "⌖"
       },
       {
         "id": 4,
-        "title": "Estate Cleanout",
-        "desc": "Full property",
+        "title": "Yard Debris",
+        "desc": "Branches & leaves",
         "icon": "⌘"
       },
       {
         "id": 5,
-        "title": "Moving Help",
-        "desc": "Loading or unloading",
+        "title": "Appliance Removal",
+        "desc": "Washers, dryers, fridges",
         "icon": "⚡"
       },
       {
         "id": 6,
-        "title": "Construction Cleanup",
-        "desc": "Debris hauling",
+        "title": "Furniture Removal",
+        "desc": "Sofas, tables, mattresses",
         "icon": "◈"
       }
     ],
@@ -910,15 +868,15 @@
       },
       {
         "value": "landlord",
-        "label": "Landlord / Property Manager"
-      },
-      {
-        "value": "realtor",
-        "label": "Realtor"
+        "label": "Landlord"
       },
       {
         "value": "contractor",
         "label": "Contractor"
+      },
+      {
+        "value": "commercial",
+        "label": "Business"
       }
     ],
     "timelines": [
@@ -936,22 +894,22 @@
       },
       {
         "value": "future",
-        "label": "Future Project (3+ weeks)"
+        "label": "Future (3+ weeks)"
       }
     ],
-    "email": "info@shoalsjunkpros.com",
+    "email": "info@dakotajunkremovals.com",
     "success": {
       "title": "Estimate Request Received",
-      "message": "Your request has been sent to Shoals Junk Pros.",
-      "response": "We'll respond quickly to schedule your free estimate. Tell us what you need and we'll see if we can help.",
+      "message": "Your request has been sent to Dakota Junk Removals.",
+      "response": "We'll respond quickly with your free estimate. Junk gone. Stress gone.",
       "buttonText": "Close"
     }
   },
   "footer": {
     "company": {
-      "name": "Shoals Junk Pros",
-      "tagline": "YOUR LOCAL JUNK REMOVAL PROS",
-      "description": "Fast, reliable, and thorough junk removal, cleanouts, light demolition, and hauling services for homeowners, landlords, and contractors in the Shoals area."
+      "name": "Dakota Junk Removals",
+      "tagline": "JUNK GONE. STRESS GONE.",
+      "description": "Fast, affordable junk removal for homeowners, landlords, contractors, and businesses in Brookings, Sioux Falls, and Watertown."
     },
     "services": {
       "title": "Our Services",
@@ -962,70 +920,80 @@
           "icon": "Home"
         },
         {
-          "label": "Garage Cleanouts",
-          "href": "/garage-cleanouts",
+          "label": "Property Cleanouts",
+          "href": "/property-cleanouts",
           "icon": "Building2"
         },
         {
-          "label": "Shed Removal",
-          "href": "/shed-removal",
+          "label": "Construction Debris",
+          "href": "/construction-debris",
           "icon": "Hammer"
+        },
+        {
+          "label": "Furniture Removal",
+          "href": "/furniture-removal",
+          "icon": "Shield"
+        },
+        {
+          "label": "Appliance Removal",
+          "href": "/appliance-removal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Yard Debris",
+          "href": "/yard-debris",
+          "icon": "Wrench"
+        },
+        {
+          "label": "Garage Cleanouts",
+          "href": "/garage-cleanouts",
+          "icon": "Tool"
         },
         {
           "label": "Estate Cleanouts",
           "href": "/estate-cleanouts",
-          "icon": "Shield"
-        },
-        {
-          "label": "Light Demolition",
-          "href": "/light-demolition",
-          "icon": "Wrench"
-        },
-        {
-          "label": "Moving Services",
-          "href": "/moving-services",
-          "icon": "Tool"
-        },
-        {
-          "label": "Construction Cleanup",
-          "href": "/construction-cleanup",
           "icon": "Layers"
         },
         {
-          "label": "Landlord Cleanouts",
-          "href": "/landlord-cleanouts",
+          "label": "Rental Cleanouts",
+          "href": "/rental-cleanouts",
           "icon": "Palette"
+        },
+        {
+          "label": "Contractor Cleanup",
+          "href": "/contractor-cleanup",
+          "icon": "Grid"
         }
       ],
       "materials": {
-        "title": "Service Area",
+        "title": "Service Areas",
         "items": [
           {
-            "label": "Florence, AL",
-            "href": "/florence"
+            "label": "Brookings, SD",
+            "href": "/brookings"
           },
           {
-            "label": "Muscle Shoals, AL",
-            "href": "/muscle-shoals"
+            "label": "Sioux Falls, SD",
+            "href": "/sioux-falls"
           },
           {
-            "label": "Sheffield, AL",
-            "href": "/sheffield"
+            "label": "Watertown, SD",
+            "href": "/watertown"
           },
           {
-            "label": "Tuscumbia, AL",
-            "href": "/tuscumbia"
+            "label": "Surrounding Areas",
+            "href": "/surrounding-areas"
           }
         ]
       }
     },
     "contact": {
       "title": "Contact Us",
-      "email": "info@shoalsjunkpros.com",
-      "phone": "+1 (256) 394-6185",
-      "address": "Florence, Alabama",
+      "email": "info@dakotajunkremovals.com",
+      "phone": "+1 (605) 651-4228",
+      "address": "Brookings, South Dakota",
       "emergency": "",
-      "areas": "Florence • Muscle Shoals • Sheffield • Tuscumbia"
+      "areas": "Brookings • Sioux Falls • Watertown"
     },
     "certifications": [
       {
@@ -1035,13 +1003,18 @@
       },
       {
         "cert": "Fast",
-        "number": "Response",
+        "number": "Service",
         "icon": "Clock"
       },
       {
         "cert": "Local",
-        "number": "Family-Owned",
+        "number": "Owned",
         "icon": "Home"
+      },
+      {
+        "cert": "Affordable",
+        "number": "Pricing",
+        "icon": "Star"
       },
       {
         "cert": "Reliable",
@@ -1049,14 +1022,9 @@
         "icon": "Check"
       },
       {
-        "cert": "Thorough",
-        "number": "Cleanup",
-        "icon": "Star"
-      },
-      {
-        "cert": "Hard",
-        "number": "Working",
-        "icon": "Award"
+        "cert": "Insured",
+        "number": "Coverage",
+        "icon": "Shield"
       }
     ],
     "quickLinks": [
@@ -1066,9 +1034,9 @@
         "icon": "Phone"
       },
       {
-        "label": "Before & After",
+        "label": "Service Areas",
         "href": "#portfolio",
-        "icon": "FileText"
+        "icon": "MapPin"
       },
       {
         "label": "About Us",
@@ -1080,12 +1048,12 @@
       {
         "platform": "Email",
         "icon": "Mail",
-        "href": "mailto:info@shoalsjunkpros.com"
+        "href": "mailto:info@dakotajunkremovals.com"
       },
       {
         "platform": "Phone",
         "icon": "Phone",
-        "href": "tel:+12563946185"
+        "href": "tel:+16056514228"
       },
       {
         "platform": "Facebook",
@@ -1101,10 +1069,20 @@
         "platform": "LinkedIn",
         "icon": "Linkedin",
         "href": "#"
+      },
+      {
+        "platform": "YouTube",
+        "icon": "Youtube",
+        "href": "#"
+      },
+      {
+        "platform": "TikTok",
+        "icon": "Music",
+        "href": "#"
       }
     ],
     "bottom": {
-      "copyright": "© 2026 Shoals Junk Pros",
+      "copyright": "© 2026 Dakota Junk Removals",
       "rights": "All rights reserved",
       "links": [
         {
@@ -1114,43 +1092,47 @@
         {
           "label": "Terms & Conditions",
           "href": "/terms"
+        },
+        {
+          "label": "Accessibility",
+          "href": "/accessibility"
         }
       ],
-      "tagline": "YOUR LOCAL JUNK REMOVAL PROS"
+      "tagline": "JUNK GONE. STRESS GONE."
     },
     "marquee": {
       "texts": [
-        "RECLAIM YOUR SPACE",
-        "FAST • RELIABLE • THOROUGH",
-        "FREE ESTIMATES • LOCAL • FAMILY-OWNED"
+        "JUNK GONE. STRESS GONE.",
+        "FAST • RELIABLE • AFFORDABLE",
+        "FREE ESTIMATES • LOCALLY OWNED"
       ]
     }
   },
   "leadership": {
     "section": {
       "badge": "OUR LEADERSHIP",
-      "headline": "Meet Your <span class=\"text-primary\">Local Junk Removal Pros</span>",
-      "description": "At Shoals Junk Pros, we believe in honest work, fair prices, and helping our neighbors reclaim their space — one truckload at a time."
+      "headline": "Committed to <span class=\"text-primary\">Serving Our Community</span>",
+      "description": "At Dakota Junk Removals, our team is driven by a singular mission: to make junk removal fast, affordable, and completely stress-free for every customer we serve across Brookings, Sioux Falls, and Watertown."
     },
     "ceo": {
-      "name": "Trenton Hips",
-      "title": "OWNER & FOUNDER",
+      "name": "Dakota Junk Removals Team",
+      "title": "LOCALLY OWNED & OPERATED",
       "quotes": [
-        "I started Shoals Junk Pros because I saw so many people overwhelmed by clutter — garages you couldn't walk through, attics full of stuff nobody wanted, old sheds falling apart in backyards. They didn't know where to begin. That's where we come in."
+        "We started Dakota Junk Removals because we saw too many homeowners, landlords, and businesses throughout our community struggling with clutter they couldn't get rid of on their own. Overflowing garages packed with years of accumulated stuff.  "
       ],
       "description": [
-        "Trenton Hips is a hard-working local who built Shoals Junk Pros from the ground up with one simple philosophy: tell him what you need and he'll see if he can help. No job is too small, no mess too big. From a single piece of furniture to a full estate cleanout, Trenton and his team handle it with respect, hard work, and a commitment to leaving your property cleaner than they found it.",
-        "Based in Florence, Alabama, Trenton leads a team dedicated to fast response, reliable service, and thorough cleanup. He understands that dealing with clutter can be stressful — so he makes the process simple, affordable, and hassle-free. You don't lift a finger. You don't climb through your attic. You just point at the pile and it disappears."
+        "Dakota Junk Removals was built on a simple belief: junk removal shouldn't be complicated, expensive, or stressful. Our founders saw firsthand how many people in Brookings, Sioux Falls, and Watertown were putting off cleanouts simply because they didn't have the time, the truck, or the manpower to handle it themselves. They were overwhelmed by garages packed to the ceiling, rental properties full of abandoned furniture, and yards buried under branches and debris — with no easy, affordable solution in sight.",
+        "Today, Dakota Junk Removals proudly serves homeowners, renters, landlords, property managers, contractors, and businesses throughout Brookings, Sioux Falls, Watertown, and all surrounding communities. We've helped hundreds of families reclaim their garages and basements. We've partnered with landlords to turn over rental properties fast. We've worked alongside contractors to keep job sites clean and safe.  "
       ],
       "social": {
         "linkedin": "#",
-        "email": "info@shoalsjunkpros.com"
+        "email": "info@dakotajunkremovals.com"
       },
       "badges": {
-        "top": "Hard Working",
+        "top": "Locally Owned & Operated",
         "bottom": "Community Focused"
       },
-      "alt": "Trenton Hips - Owner & Founder of Shoals Junk Pros"
+      "alt": "Dakota Junk Removals Team - Locally Owned & Operated"
     }
   }
 }

@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Home, Sun, Droplets } from "lucide-react";
 
-import heroBg from "@/assets/hero-bg.webp";
+import heroBg from "@/assets/herobgdakota.png";
 import {
   FiArrowRight,
   FiChevronDown,
@@ -161,8 +161,8 @@ const CoatingInquiryForm = () => {
           <div className="px-5 sm:px-6 md:px-8 py-4 sm:py-5">
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3">
-                <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{ background: "#F28C28" }}>
-                  <FiZap className="w-5 h-5 sm:w-6 sm:h-6" style={{ color: "#FFF" }} />
+                <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{ background: "#4D7C0F" }}>
+                  <FiZap className="w-5 h-5 sm:w-6 sm:h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-[#111111]" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -173,19 +173,19 @@ const CoatingInquiryForm = () => {
                   </p>
                 </div>
               </div>
-              <div className="hidden sm:flex items-center gap-1 rounded-full px-3 py-1.5" style={{ background: "#F28C2810", border: "1px solid #F28C2830" }}>
+              <div className="hidden sm:flex items-center gap-1 rounded-full px-3 py-1.5" style={{ background: "#4D7C0F10", border: "1px solid #4D7C0F30" }}>
                 <div className="flex -space-x-1">
                   {[1, 2, 3].map((i) => (
                     <div
                       key={i}
                       className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold"
-                      style={step >= i ? { background: "#F28C28", color: "#fff" } : { background: "#E2E8F0", color: "#94A3B8" }}
+                      style={step >= i ? { background: "#4D7C0F", color: "#FFFFFF" } : { background: "#E2E8F0", color: "#94A3B8" }}
                     >
                       {i}
                     </div>
                   ))}
                 </div>
-                <span className="text-xs font-medium ml-1" style={{ color: "#F28C28" }}>
+                <span className="text-xs font-medium ml-1" style={{ color: "#4D7C0F" }}>
                   Steps
                 </span>
               </div>
@@ -216,7 +216,7 @@ const CoatingInquiryForm = () => {
                       >
                         <div
                           className="relative w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300"
-                          style={isActive ? { background: "#F28C28", color: "#fff", boxShadow: "0 0 20px rgba(242,140,40,0.3)" } : isCompleted ? { background: "#11111122", color: "#111111" } : { background: "#E2E8F0", color: "#94A3B8" }}
+                          style={isActive ? { background: "#4D7C0F", color: "#FFFFFF", boxShadow: "0 0 20px rgba(77,124,15,0.3)" } : isCompleted ? { background: "#11111122", color: "#111111" } : { background: "#E2E8F0", color: "#94A3B8" }}
                         >
                           {isCompleted ? (
                             <FiCheckCircle className="w-6 h-6" />
@@ -226,7 +226,7 @@ const CoatingInquiryForm = () => {
                         </div>
                         <span
                           className="text-xs font-bold mt-2 transition-colors"
-                          style={{ color: isActive ? "#F28C28" : isCompleted ? "#11111199" : "#94A3B8" }}
+                          style={{ color: isActive ? "#4D7C0F" : isCompleted ? "#11111199" : "#94A3B8" }}
                         >
                           {stepLabels[s - 1]}
                         </span>
@@ -237,7 +237,7 @@ const CoatingInquiryForm = () => {
                 <div className="relative mt-4 h-1 rounded-full overflow-hidden" style={{ background: "#E2E8F0" }}>
                   <motion.div
                     className="absolute left-0 top-0 h-full rounded-full"
-                    style={{ background: "#F28C28" }}
+                    style={{ background: "#4D7C0F" }}
                     initial={{ width: "0%" }}
                     animate={{ width: `${((step - 1) / 2) * 100}%` }}
                     transition={{ duration: 0.3 }}
@@ -256,8 +256,8 @@ const CoatingInquiryForm = () => {
                       transition={{ duration: 0.25 }}
                       className="space-y-4"
                     >
-                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#154D8510", border: "1px solid #154D8522" }}>
-                        <FiUser className="w-4 h-4" style={{ color: "#154D85" }} />
+                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#4D7C0F10", border: "1px solid #4D7C0F22" }}>
+                        <FiUser className="w-4 h-4" style={{ color: "#4D7C0F" }} />
                         <span className="text-xs" style={{ color: "#1F293799" }}>
                           Step 1 of 3 - Tell us who you are
                         </span>
@@ -275,7 +275,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#154D85"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#4D7C0F"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="John"
                             required
@@ -295,7 +295,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#154D85"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#4D7C0F"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="Doe"
                             required
@@ -315,7 +315,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#154D85"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#4D7C0F"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="123 Main St, Canton, MI"
                             required
@@ -327,7 +327,7 @@ const CoatingInquiryForm = () => {
                         onClick={nextStep}
                         disabled={!formData.firstName || !formData.lastName || !formData.address}
                         className="w-full py-3.5 rounded-xl font-bold mt-4 disabled:opacity-40 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2 group"
-                        style={{ background: "#F28C28", color: "#fff", boxShadow: "0 8px 24px rgba(242,140,40,0.2)" }}
+                        style={{ background: "#4D7C0F", color: "#FFFFFF", boxShadow: "0 8px 24px rgba(77, 124, 15, 0.2)" }}
                       >
                         Continue
                         <FiArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -344,8 +344,8 @@ const CoatingInquiryForm = () => {
                       transition={{ duration: 0.25 }}
                       className="space-y-4"
                     >
-                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#154D8510", border: "1px solid #154D8522" }}>
-                        <FiTool className="w-4 h-4" style={{ color: "#154D85" }} />
+                      <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#4D7C0F10", border: "1px solid #4D7C0F22" }}>
+                        <FiTool className="w-4 h-4" style={{ color: "#4D7C0F" }} />
                         <span className="text-xs" style={{ color: "#1F293799" }}>
                           Step 2 of 3 - What service do you need?
                         </span>
@@ -368,7 +368,7 @@ const CoatingInquiryForm = () => {
                               </option>
                             ))}
                           </select>
-                          <SelectedIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-[#154D85] w-5 h-5 pointer-events-none" />
+                          <SelectedIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-[#4D7C0F] w-5 h-5 pointer-events-none" />
                         </div>
                       </div>
                       <div>
@@ -421,7 +421,7 @@ const CoatingInquiryForm = () => {
                           type="button"
                           onClick={nextStep}
                           className="flex-1 py-3.5 rounded-xl font-bold transition-all flex items-center justify-center gap-2 group"
-                          style={{ background: "#F28C28", color: "#fff" }}
+                          style={{ background: "#4D7C0F", color: "#FFFFFF" }}
                         >
                           Continue
                           <FiArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -440,7 +440,7 @@ const CoatingInquiryForm = () => {
                       className="space-y-4"
                     >
                       <div className="rounded-xl p-3 flex items-center gap-2 mb-2" style={{ background: "#11111108", border: "1px solid #11111115" }}>
-                        <FiShield className="w-4 h-4" style={{ color: "#F28C28" }} />
+                        <FiShield className="w-4 h-4" style={{ color: "#4D7C0F" }} />
                         <span className="text-xs" style={{ color: "#1F293799" }}>
                           Step 3 of 3 - How should we reach you?
                         </span>
@@ -458,7 +458,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#F28C28"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#4D7C0F"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="hello@example.com"
                             required
@@ -478,7 +478,7 @@ const CoatingInquiryForm = () => {
                             onChange={handleChange}
                             className="w-full rounded-xl py-3 pl-11 pr-4 text-[#1F2937] transition-all focus:outline-none"
                             style={{ background: "#F7F9FC", border: "1px solid #E2E8F0" }}
-                            onFocus={(e) => e.currentTarget.style.borderColor = "#F28C28"}
+                            onFocus={(e) => e.currentTarget.style.borderColor = "#4D7C0F"}
                             onBlur={(e) => e.currentTarget.style.borderColor = "#E2E8F0"}
                             placeholder="+1 (386) 246-7999"
                             required
@@ -498,7 +498,7 @@ const CoatingInquiryForm = () => {
                           type="submit"
                           disabled={isSubmitting || !formData.email || !formData.phone}
                           className="flex-1 py-3.5 rounded-xl font-bold disabled:opacity-40 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2"
-                          style={{ background: "#F28C28", color: "#fff", boxShadow: "0 8px 24px rgba(242,140,40,0.2)" }}
+                          style={{ background: "#4D7C0F", color: "#FFFFFF", boxShadow: "0 8px 24px rgba(77, 124, 15, 0.2)" }}
                         >
                           {isSubmitting ? "Sending..." : "Get Free Estimate"}
                         </button>
@@ -522,7 +522,7 @@ const CoatingInquiryForm = () => {
                 Estimate Request Sent!
               </h3>
               <p className="text-muted-foreground text-sm max-w-xs mx-auto">
-                Thanks for contacting Shoals Junk Pros. We'll reach out within 24 hours with your free estimate.
+                Thanks for contacting Dakota Junk Removals. We'll reach out within 24 hours with your free estimate.
               </p>
             </motion.div>
           )}
@@ -561,7 +561,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10">
         <motion.img
           src={heroBg}
-          alt="Shoals Junk Pros - Fast, Reliable Junk Removal in the Shoals Area"
+          alt="Dakota Junk Removals - Fast, Reliable Junk Removal in the Brookings, Sioux Falls, and Watertown Areas"
           loading="eager"
           {...({ fetchpriority: "high" } as any)}
           initial={{ scale: 1.1 }}
@@ -584,13 +584,17 @@ const Hero = () => {
 
 
               <motion.h1
-                className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white lg:leading-[1.15] tracking-tight uppercase mt-4 lg:mt-8"
+                className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white lg:leading-[1.15] tracking-tight uppercase mt-4 lg:mt-8"
                 style={{ fontFamily: "'Outfit', sans-serif" }}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
-                {headlines.join(" ")}
+                {headlines.map((line, idx) => (
+                  <span key={idx} className="block">
+                    {line}
+                  </span>
+                ))}
               </motion.h1>
 
               <motion.p
@@ -618,7 +622,7 @@ const Hero = () => {
                         key={idx}
                         href={button.href}
                         className={`group relative overflow-hidden px-8 py-4 rounded-xl sm:rounded-2xl w-full sm:w-auto inline-flex items-center justify-center gap-3 text-base font-bold transition-all duration-300 active:scale-95 border-2 ${isFirst
-                          ? "bg-accent text-white border-transparent hover:bg-accentDark shadow-lg shadow-accent/20"
+                          ? "bg-accent text-white border-transparent hover:bg-accent/80 shadow-lg shadow-accent/20"
                           : "bg-transparent text-white border-white/30 hover:bg-white/10 hover:border-white"
                           }`}
                         whileHover={{ y: -4 }}
@@ -649,8 +653,8 @@ const Hero = () => {
                         style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)" }}
                       >
                         {StatIcon
-                          ? <StatIcon className="w-4 h-4 sm:w-5 sm:h-5" style={{ color: "#F28C28" }} />
-                          : <span className="w-4 h-4 rounded-full" style={{ background: "#F28C28" }} />
+                          ? <StatIcon className="w-4 h-4 sm:w-5 sm:h-5" style={{ color: "#4D7C0F" }} />
+                          : <span className="w-4 h-4 rounded-full" style={{ background: "#4D7C0F" }} />
                         }
                       </div>
                       <div className="min-w-0 text-center lg:text-left">
