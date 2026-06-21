@@ -12,7 +12,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import completeData from "../src/data/completeData.json";
-import vectorimage from '../assets/theshoalsvector.png'
+import vectorimage from '../assets/theshoalsvector.webp'
 
 gsap.registerPlugin(ScrollTrigger);
 

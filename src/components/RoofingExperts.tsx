@@ -1,6 +1,6 @@
 import { motion, useInView, useReducedMotion } from "framer-motion";
 import { useRef, useEffect, useState, useCallback, useMemo, memo } from "react";
-import AboutImg from "@/assets/dakota_crew.png";
+import AboutImg from "@/assets/dakota_crew.webp";
 import completeData from "../src/data/completeData.json";
 
 

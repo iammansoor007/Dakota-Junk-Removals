@@ -22,8 +22,8 @@ import {
   ClipboardCheck,
   Clock,
 } from "lucide-react";
-import logo from "../assets/dakotajunkl.png";
-import logo2nd from "../assets/dakotajunkl.png";
+import logo from "../assets/dakotajunkl.webp";
+import logo2nd from "../assets/dakotajunkl.webp";
 import completeData from "../src/data/completeData.json";
 
 const iconMap = {
